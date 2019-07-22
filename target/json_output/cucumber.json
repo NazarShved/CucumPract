@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is logged in and on purchases module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15050169778,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to odoo, log in and go to purcases",
+            "match": {
+              "location": "BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "search products by name",
+        "description": "",
+        "id": "search-functionality-verification;search-products-by-name",
+        "after": [
+          {
+            "result": {
+              "duration": 815075652,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OdooPurchasesSearchSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1859032476,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on odoo purchases/products module",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.user_is_on_odoo_purchases_products_module()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1114556908,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters a word into a search box",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277899707,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "# And presses Enter key or clicks on search button"
+              }
+            ],
+            "line": 10,
+            "name": "system should display results that contain the word user searched for",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word_user_searched_for()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42486122,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a small tab with the word appears in the search box",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.a_small_tab_with_the_word_appears_in_the_search_box()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is logged in and on purchases module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10287620705,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to odoo, log in and go to purcases",
+            "match": {
+              "location": "BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "display/hide advanced search option",
+        "description": "",
+        "id": "search-functionality-verification;display/hide-advanced-search-option",
+        "after": [
+          {
+            "result": {
+              "duration": 778336341,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OdooPurchasesSearchSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 219436437,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the search icon",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38833104,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "advanced search options should display",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.advanced_search_options_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75025018,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on the search icon again",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon_again()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38680004,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "advanced search options should disapear",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.advanced_search_options_should_disapear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality verification",
+    "description": "",
+    "id": "search-functionality-verification",
+    "keyword": "Feature",
+    "uri": "odooPurchasesSearch.feature"
+  }
+]
