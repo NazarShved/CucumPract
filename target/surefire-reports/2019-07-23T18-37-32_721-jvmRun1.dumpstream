@@ -1,0 +1,2314 @@
+# Created at 2019-07-23T18:37:38.509
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-07-23T18:37:41.144
+Unexpected IOException with stream: Jul 23, 2019 6:37:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-07-23T18:37:52.228
+Unexpected IOException: 5,1,Scenario: search products by name,Given go to odoo\002C log in and go to purcases(Scenario: search products by name),null,null,null
+
+
+# Created at 2019-07-23T18:37:52.246
+Unexpected IOException: 7,1,Scenario: search products by name,Given go to odoo\002C log in and go to purcases(Scenario: search products by name),null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)\000ACaused by: org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '10.1.10.197'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:64948}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 30c1240643934e925f644a7bc5629220\000A*** Element info: {Using=css selector\002C value=#login}\000A
+
+
+# Created at 2019-07-23T18:37:52.268
+Unexpected IOException: 7,1,Scenario: search products by name,Scenario: search products by name,null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)\000ACaused by: org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '10.1.10.197'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:64948}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 30c1240643934e925f644a7bc5629220\000A*** Element info: {Using=css selector\002C value=#login}\000A
+
+
+# Created at 2019-07-23T18:37:52.308
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:37:52.315
+Unexpected IOException with stream:   Background: user is logged in and on purchases module # odooPurchasesSearch.feature:3
+
+
+# Created at 2019-07-23T18:37:52.320
+Unexpected IOException with stream:     Given go to odoo, log in and go to purcases         # BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()
+
+
+# Created at 2019-07-23T18:37:52.328
+Unexpected IOException with stream:       org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+      	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+      	at utilities.ConsAPI.$(ConsAPI.java:74)
+      	at utilities.ConsAPI.$(ConsAPI.java:79)
+      	at utilities.ConsAPI.login(ConsAPI.java:32)
+      	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+      	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+      	at ?.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:4)
+      Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+      from unknown error: web view not found
+        (Session info: chrome=75.0.3770.142)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'DESKTOP-BEIVEA1', ip: '10.1.10.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:64948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 30c1240643934e925f644a7bc5629220
+      *** Element info: {Using=css selector, value=#login}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+      	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+      	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+      	at utilities.ConsAPI.$(ConsAPI.java:74)
+      	at utilities.ConsAPI.$(ConsAPI.java:79)
+      	at utilities.ConsAPI.login(ConsAPI.java:32)
+      	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+      	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+      	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+
+# Created at 2019-07-23T18:37:52.341
+Unexpected IOException: 9,1,Scenario: search products by name,Given user is on odoo purchases/products module(Scenario: search products by name),null,null,null
+
+
+# Created at 2019-07-23T18:37:52.350
+Unexpected IOException: 9,1,Scenario: search products by name,When user enters a word into a search box(Scenario: search products by name),null,null,null
+
+
+# Created at 2019-07-23T18:37:52.359
+Unexpected IOException: 9,1,Scenario: search products by name,Then system should display results that contain the word user searched for(Scenario: search products by name),null,null,null
+
+
+# Created at 2019-07-23T18:37:52.370
+Unexpected IOException: 9,1,Scenario: search products by name,And a small tab with the word appears in the search box(Scenario: search products by name),null,null,null
+
+
+# Created at 2019-07-23T18:37:52.944
+Unexpected IOException: 5,1,Scenario: display/hide advanced search option,Scenario: display/hide advanced search option,null,null,null
+
+
+# Created at 2019-07-23T18:37:52.952
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:37:52.959
+Unexpected IOException with stream:   Scenario: search products by name                                            # odooPurchasesSearch.feature:6
+
+
+# Created at 2019-07-23T18:37:52.970
+Unexpected IOException with stream:     Given user is on odoo purchases/products module                            # OdooPurchasesSearchSteps.user_is_on_odoo_purchases_products_module()
+
+
+# Created at 2019-07-23T18:37:52.977
+Unexpected IOException with stream:     When user enters a word into a search box                                  # OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box()
+
+
+# Created at 2019-07-23T18:37:52.984
+Unexpected IOException with stream:     # And presses Enter key or clicks on search button
+
+
+# Created at 2019-07-23T18:37:52.995
+Unexpected IOException with stream:     Then system should display results that contain the word user searched for # OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word_user_searched_for()
+
+
+# Created at 2019-07-23T18:37:53.003
+Unexpected IOException with stream:     And a small tab with the word appears in the search box                    # OdooPurchasesSearchSteps.a_small_tab_with_the_word_appears_in_the_search_box()
+
+
+# Created at 2019-07-23T18:37:53.187
+Unexpected IOException with stream: [DEBUG] Preference found chrome75=75.0.3770.8 (valid until 2019-07-24 15:50:37)
+
+
+# Created at 2019-07-23T18:37:53.196
+Unexpected IOException with stream: [INFO] Using chromedriver 75.0.3770.8 (since Google Chrome 75 is installed in your machine)
+
+
+# Created at 2019-07-23T18:37:53.211
+Unexpected IOException with stream: [DEBUG] Driver chromedriver 75.0.3770.8 found in cache
+
+
+# Created at 2019-07-23T18:37:53.225
+Unexpected IOException with stream: [INFO] Exporting webdriver.chrome.driver as C:\Users\Shvednazar994\.m2\repository\webdriver\chromedriver\win32\75.0.3770.8\chromedriver.exe
+
+
+# Created at 2019-07-23T18:37:53.316
+Unexpected IOException with stream: S
+
+# Created at 2019-07-23T18:37:53.327
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:53.334
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:53.342
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:53.349
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:53.356
+Unexpected IOException with stream: i
+
+# Created at 2019-07-23T18:37:53.365
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:53.372
+Unexpected IOException with stream: g
+
+# Created at 2019-07-23T18:37:53.378
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:53.388
+Unexpected IOException with stream: C
+
+# Created at 2019-07-23T18:37:53.395
+Unexpected IOException with stream: h
+
+# Created at 2019-07-23T18:37:53.401
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:53.408
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:53.417
+Unexpected IOException with stream: m
+
+# Created at 2019-07-23T18:37:53.423
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:53.428
+Unexpected IOException with stream: D
+
+# Created at 2019-07-23T18:37:53.435
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:53.442
+Unexpected IOException with stream: i
+
+# Created at 2019-07-23T18:37:53.447
+Unexpected IOException with stream: v
+
+# Created at 2019-07-23T18:37:53.453
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:53.459
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:53.471
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:53.477
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:53.483
+Unexpected IOException with stream: 5
+
+# Created at 2019-07-23T18:37:53.491
+Unexpected IOException with stream: .
+
+# Created at 2019-07-23T18:37:53.496
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:53.503
+Unexpected IOException with stream: .
+
+# Created at 2019-07-23T18:37:53.509
+Unexpected IOException with stream: 3
+
+# Created at 2019-07-23T18:37:53.520
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:53.530
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:53.539
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:53.544
+Unexpected IOException with stream: .
+
+# Created at 2019-07-23T18:37:53.550
+Unexpected IOException with stream: 8
+
+# Created at 2019-07-23T18:37:53.557
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:53.564
+Unexpected IOException with stream: (
+
+# Created at 2019-07-23T18:37:53.578
+Unexpected IOException with stream: 6
+
+# Created at 2019-07-23T18:37:53.586
+Unexpected IOException with stream: 8
+
+# Created at 2019-07-23T18:37:53.592
+Unexpected IOException with stream: 1
+
+# Created at 2019-07-23T18:37:53.598
+Unexpected IOException with stream: f
+
+# Created at 2019-07-23T18:37:53.604
+Unexpected IOException with stream: 2
+
+# Created at 2019-07-23T18:37:53.610
+Unexpected IOException with stream: 4
+
+# Created at 2019-07-23T18:37:53.617
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:53.623
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:53.629
+Unexpected IOException with stream: 9
+
+# Created at 2019-07-23T18:37:53.635
+Unexpected IOException with stream: 1
+
+# Created at 2019-07-23T18:37:53.643
+Unexpected IOException with stream: 1
+
+# Created at 2019-07-23T18:37:53.650
+Unexpected IOException with stream: f
+
+# Created at 2019-07-23T18:37:53.655
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:53.664
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:53.670
+Unexpected IOException with stream: 5
+
+# Created at 2019-07-23T18:37:53.677
+Unexpected IOException with stream: 4
+
+# Created at 2019-07-23T18:37:53.682
+Unexpected IOException with stream: 9
+
+# Created at 2019-07-23T18:37:53.690
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:53.696
+Unexpected IOException with stream: 3
+
+# Created at 2019-07-23T18:37:53.702
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:53.707
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:53.716
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:53.721
+Unexpected IOException with stream: 2
+
+# Created at 2019-07-23T18:37:53.727
+Unexpected IOException with stream: f
+
+# Created at 2019-07-23T18:37:53.732
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:53.739
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:53.745
+Unexpected IOException with stream: 6
+
+# Created at 2019-07-23T18:37:53.751
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:53.757
+Unexpected IOException with stream: 2
+
+# Created at 2019-07-23T18:37:53.771
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:53.785
+Unexpected IOException with stream: 2
+
+# Created at 2019-07-23T18:37:53.794
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:53.802
+Unexpected IOException with stream: 1
+
+# Created at 2019-07-23T18:37:53.813
+Unexpected IOException with stream: 5
+
+# Created at 2019-07-23T18:37:53.820
+Unexpected IOException with stream: 9
+
+# Created at 2019-07-23T18:37:53.863
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:53.873
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:53.880
+Unexpected IOException with stream: 3
+
+# Created at 2019-07-23T18:37:53.903
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:53.921
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:53.929
+Unexpected IOException with stream: -
+
+# Created at 2019-07-23T18:37:53.944
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:53.955
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:53.964
+Unexpected IOException with stream: f
+
+# Created at 2019-07-23T18:37:53.976
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:53.990
+Unexpected IOException with stream: /
+
+# Created at 2019-07-23T18:37:54.005
+Unexpected IOException with stream: b
+
+# Created at 2019-07-23T18:37:54.021
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:54.031
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:54.042
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:54.050
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:54.058
+Unexpected IOException with stream: h
+
+# Created at 2019-07-23T18:37:54.069
+Unexpected IOException with stream: -
+
+# Created at 2019-07-23T18:37:54.076
+Unexpected IOException with stream: h
+
+# Created at 2019-07-23T18:37:54.097
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:54.123
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:54.227
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:54.297
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:54.377
+Unexpected IOException with stream: /
+
+# Created at 2019-07-23T18:37:54.416
+Unexpected IOException with stream: 3
+
+# Created at 2019-07-23T18:37:54.464
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:54.537
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:54.654
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:54.677
+Unexpected IOException with stream: @
+
+# Created at 2019-07-23T18:37:54.711
+Unexpected IOException with stream: {
+
+# Created at 2019-07-23T18:37:54.757
+Unexpected IOException with stream: #
+
+# Created at 2019-07-23T18:37:54.775
+Unexpected IOException with stream: 4
+
+# Created at 2019-07-23T18:37:54.794
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:54.819
+Unexpected IOException with stream: }
+
+# Created at 2019-07-23T18:37:54.832
+Unexpected IOException with stream: )
+
+# Created at 2019-07-23T18:37:54.849
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:54.863
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:55.055
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:55.161
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:55.281
+Unexpected IOException with stream: p
+
+# Created at 2019-07-23T18:37:55.298
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:55.327
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:55.341
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:55.352
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:55.361
+Unexpected IOException with stream: 1
+
+# Created at 2019-07-23T18:37:55.381
+Unexpected IOException with stream: 0
+
+# Created at 2019-07-23T18:37:55.405
+Unexpected IOException with stream: 9
+
+# Created at 2019-07-23T18:37:55.421
+Unexpected IOException with stream: 7
+
+# Created at 2019-07-23T18:37:55.439
+Unexpected IOException with stream: 
+
+# Created at 2019-07-23T18:37:55.462
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:37:55.495
+Unexpected IOException with stream: O
+
+# Created at 2019-07-23T18:37:55.507
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:55.521
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:55.532
+Unexpected IOException with stream: y
+
+# Created at 2019-07-23T18:37:55.551
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:55.567
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:55.576
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:55.586
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:55.601
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:55.612
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:55.624
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:55.640
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:56.213
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:56.225
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:56.238
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:56.250
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.260
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:56.270
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:56.282
+Unexpected IOException with stream: Jul 23, 2019 6:37:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-07-23T18:37:56.293
+Unexpected IOException with stream: i
+
+# Created at 2019-07-23T18:37:56.313
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:56.327
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:56.350
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:56.362
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.372
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:56.382
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:56.393
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.403
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.414
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:56.425
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:56.435
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:56.447
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:56.460
+Unexpected IOException with stream: w
+
+# Created at 2019-07-23T18:37:56.468
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.477
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:56.484
+Unexpected IOException with stream: .
+
+# Created at 2019-07-23T18:37:56.493
+Unexpected IOException with stream: 
+
+# Created at 2019-07-23T18:37:56.499
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:37:56.509
+Unexpected IOException with stream: P
+
+# Created at 2019-07-23T18:37:56.518
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:56.528
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.543
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:56.553
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:56.566
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.577
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.587
+Unexpected IOException with stream: p
+
+# Created at 2019-07-23T18:37:56.594
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:56.605
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:56.654
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:56.666
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.673
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:56.692
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:56.698
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.703
+Unexpected IOException with stream: p
+
+# Created at 2019-07-23T18:37:56.710
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:56.718
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:56.725
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:56.782
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:56.788
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.794
+Unexpected IOException with stream: u
+
+# Created at 2019-07-23T18:37:56.800
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:56.806
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.812
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:56.828
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.836
+Unexpected IOException with stream: b
+
+# Created at 2019-07-23T18:37:56.842
+Unexpected IOException with stream: y
+
+# Created at 2019-07-23T18:37:56.854
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:56.862
+Unexpected IOException with stream: C
+
+# Created at 2019-07-23T18:37:56.871
+Unexpected IOException with stream: h
+
+# Created at 2019-07-23T18:37:56.880
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:56.886
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:56.894
+Unexpected IOException with stream: m
+
+# Created at 2019-07-23T18:37:56.901
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.912
+Unexpected IOException with stream: D
+
+# Created at 2019-07-23T18:37:56.922
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:56.932
+Unexpected IOException with stream: i
+
+# Created at 2019-07-23T18:37:56.975
+Unexpected IOException with stream: v
+
+# Created at 2019-07-23T18:37:56.986
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:56.995
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:57.005
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.012
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:57.018
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:57.037
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:57.048
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.090
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:57.101
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.109
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:57.117
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:57.125
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:57.134
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.140
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:57.146
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.156
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:57.163
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.170
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:57.179
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:57.186
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.193
+Unexpected IOException with stream: f
+
+# Created at 2019-07-23T18:37:57.201
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:57.209
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:57.217
+Unexpected IOException with stream: m
+
+# Created at 2019-07-23T18:37:57.224
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.232
+Unexpected IOException with stream: w
+
+# Created at 2019-07-23T18:37:57.257
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:57.266
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:57.273
+Unexpected IOException with stream: k
+
+# Created at 2019-07-23T18:37:57.287
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:57.296
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.306
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:57.314
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:57.322
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.332
+Unexpected IOException with stream: p
+
+# Created at 2019-07-23T18:37:57.350
+Unexpected IOException with stream: r
+
+# Created at 2019-07-23T18:37:57.381
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.391
+Unexpected IOException with stream: v
+
+# Created at 2019-07-23T18:37:57.397
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.408
+Unexpected IOException with stream: n
+
+# Created at 2019-07-23T18:37:57.415
+Unexpected IOException with stream: t
+
+# Created at 2019-07-23T18:37:57.424
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.437
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:57.443
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:57.451
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:57.476
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.500
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:57.518
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:57.528
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.542
+Unexpected IOException with stream: b
+
+# Created at 2019-07-23T18:37:57.552
+Unexpected IOException with stream: y
+
+# Created at 2019-07-23T18:37:57.574
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.593
+Unexpected IOException with stream: m
+
+# Created at 2019-07-23T18:37:57.603
+Unexpected IOException with stream: a
+
+# Created at 2019-07-23T18:37:57.612
+Unexpected IOException with stream: l
+
+# Created at 2019-07-23T18:37:57.623
+Unexpected IOException with stream: i
+
+# Created at 2019-07-23T18:37:57.633
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:57.643
+Unexpected IOException with stream: i
+
+# Created at 2019-07-23T18:37:57.653
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:57.661
+Unexpected IOException with stream: u
+
+# Created at 2019-07-23T18:37:57.670
+Unexpected IOException with stream: s
+
+# Created at 2019-07-23T18:37:57.690
+Unexpected IOException with stream:  
+
+# Created at 2019-07-23T18:37:57.731
+Unexpected IOException with stream: c
+
+# Created at 2019-07-23T18:37:57.743
+Unexpected IOException with stream: o
+
+# Created at 2019-07-23T18:37:57.758
+Unexpected IOException with stream: d
+
+# Created at 2019-07-23T18:37:57.773
+Unexpected IOException with stream: e
+
+# Created at 2019-07-23T18:37:57.789
+Unexpected IOException with stream: .
+
+# Created at 2019-07-23T18:37:57.799
+Unexpected IOException with stream: 
+
+# Created at 2019-07-23T18:37:57.810
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:06.366
+Unexpected IOException: 5,1,Scenario: display/hide advanced search option,Given go to odoo\002C log in and go to purcases(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-23T18:38:06.378
+Unexpected IOException: 7,1,Scenario: display/hide advanced search option,Given go to odoo\002C log in and go to purcases(Scenario: display/hide advanced search option),null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)\000ACaused by: org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '10.1.10.197'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:64983}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0d086dfba23eb1ba5b33a6c6f7e8f63a\000A*** Element info: {Using=css selector\002C value=#login}\000A
+
+
+# Created at 2019-07-23T18:38:06.390
+Unexpected IOException: 7,1,Scenario: display/hide advanced search option,Scenario: display/hide advanced search option,null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval),org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)\000ACaused by: org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=75.0.3770.142)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '10.1.10.197'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:64983}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0d086dfba23eb1ba5b33a6c6f7e8f63a\000A*** Element info: {Using=css selector\002C value=#login}\000A
+
+
+# Created at 2019-07-23T18:38:06.402
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:06.413
+Unexpected IOException with stream:   Background: user is logged in and on purchases module # odooPurchasesSearch.feature:3
+
+
+# Created at 2019-07-23T18:38:06.424
+Unexpected IOException with stream:     Given go to odoo, log in and go to purcases         # BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()
+
+
+# Created at 2019-07-23T18:38:06.439
+Unexpected IOException with stream:       org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+      	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+      	at utilities.ConsAPI.$(ConsAPI.java:74)
+      	at utilities.ConsAPI.$(ConsAPI.java:79)
+      	at utilities.ConsAPI.login(ConsAPI.java:32)
+      	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+      	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+      	at ?.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:4)
+      Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+      from unknown error: web view not found
+        (Session info: chrome=75.0.3770.142)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'DESKTOP-BEIVEA1', ip: '10.1.10.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:64983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 0d086dfba23eb1ba5b33a6c6f7e8f63a
+      *** Element info: {Using=css selector, value=#login}
+      	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+      	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+      	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+      	at utilities.ConsAPI.$(ConsAPI.java:74)
+      	at utilities.ConsAPI.$(ConsAPI.java:79)
+      	at utilities.ConsAPI.login(ConsAPI.java:32)
+      	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+      	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+      	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+
+# Created at 2019-07-23T18:38:06.479
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,Given user clicks on the search icon(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-23T18:38:06.494
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,Then advanced search options should display(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-23T18:38:06.507
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,When user clicks on the search icon again(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-23T18:38:06.523
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,Then advanced search options should disapear(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-23T18:38:07.130
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.155
+Unexpected IOException with stream:   Scenario: display/hide advanced search option  # odooPurchasesSearch.feature:13
+
+
+# Created at 2019-07-23T18:38:07.168
+Unexpected IOException with stream:     Given user clicks on the search icon         # OdooPurchasesSearchSteps.user_clicks_on_the_search_icon()
+
+
+# Created at 2019-07-23T18:38:07.179
+Unexpected IOException with stream:     Then advanced search options should display  # OdooPurchasesSearchSteps.advanced_search_options_should_display()
+
+
+# Created at 2019-07-23T18:38:07.188
+Unexpected IOException with stream:     When user clicks on the search icon again    # OdooPurchasesSearchSteps.user_clicks_on_the_search_icon_again()
+
+
+# Created at 2019-07-23T18:38:07.194
+Unexpected IOException with stream:     Then advanced search options should disapear # OdooPurchasesSearchSteps.advanced_search_options_should_disapear()
+
+
+# Created at 2019-07-23T18:38:07.394
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.402
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2019-07-23T18:38:07.408
+Unexpected IOException with stream: odooPurchasesSearch.feature:6 
+
+# Created at 2019-07-23T18:38:07.415
+Unexpected IOException with stream: # Scenario: search products by name
+
+
+# Created at 2019-07-23T18:38:07.422
+Unexpected IOException with stream: odooPurchasesSearch.feature:13 
+
+# Created at 2019-07-23T18:38:07.429
+Unexpected IOException with stream: # Scenario: display/hide advanced search option
+
+
+# Created at 2019-07-23T18:38:07.437
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.443
+Unexpected IOException with stream: 2
+
+# Created at 2019-07-23T18:38:07.451
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2019-07-23T18:38:07.458
+Unexpected IOException with stream: 2 failed
+
+# Created at 2019-07-23T18:38:07.465
+Unexpected IOException with stream: )
+
+
+# Created at 2019-07-23T18:38:07.472
+Unexpected IOException with stream: 10
+
+# Created at 2019-07-23T18:38:07.478
+Unexpected IOException with stream:  Steps (
+
+# Created at 2019-07-23T18:38:07.485
+Unexpected IOException with stream: 2 failed
+
+# Created at 2019-07-23T18:38:07.491
+Unexpected IOException with stream: , 
+
+# Created at 2019-07-23T18:38:07.505
+Unexpected IOException with stream: 8 skipped
+
+# Created at 2019-07-23T18:38:07.512
+Unexpected IOException with stream: )
+
+
+# Created at 2019-07-23T18:38:07.520
+Unexpected IOException with stream: 0m
+
+# Created at 2019-07-23T18:38:07.526
+Unexpected IOException with stream: 30.981s
+
+
+# Created at 2019-07-23T18:38:07.532
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.539
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)
+
+# Created at 2019-07-23T18:38:07.545
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.552
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+
+# Created at 2019-07-23T18:38:07.557
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.563
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+
+# Created at 2019-07-23T18:38:07.569
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.575
+Unexpected IOException with stream: 	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+
+# Created at 2019-07-23T18:38:07.580
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.587
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:74)
+
+# Created at 2019-07-23T18:38:07.593
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.599
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:79)
+
+# Created at 2019-07-23T18:38:07.605
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.610
+Unexpected IOException with stream: 	at utilities.ConsAPI.login(ConsAPI.java:32)
+
+# Created at 2019-07-23T18:38:07.616
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.622
+Unexpected IOException with stream: 	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+
+# Created at 2019-07-23T18:38:07.628
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.634
+Unexpected IOException with stream: 	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+
+# Created at 2019-07-23T18:38:07.640
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.646
+Unexpected IOException with stream: 	at ?.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:4)
+
+# Created at 2019-07-23T18:38:07.653
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.659
+Unexpected IOException with stream: Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BEIVEA1', ip: '10.1.10.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:64948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 30c1240643934e925f644a7bc5629220
+*** Element info: {Using=css selector, value=#login}
+
+# Created at 2019-07-23T18:38:07.665
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.671
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-07-23T18:38:07.677
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.684
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2019-07-23T18:38:07.690
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.695
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-07-23T18:38:07.702
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.708
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-07-23T18:38:07.714
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.720
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2019-07-23T18:38:07.726
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.733
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2019-07-23T18:38:07.739
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.745
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2019-07-23T18:38:07.751
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.757
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-07-23T18:38:07.763
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.769
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-07-23T18:38:07.775
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.782
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-07-23T18:38:07.789
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.796
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2019-07-23T18:38:07.803
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.810
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+
+# Created at 2019-07-23T18:38:07.817
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.823
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+
+# Created at 2019-07-23T18:38:07.830
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.838
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2019-07-23T18:38:07.844
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.851
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+
+# Created at 2019-07-23T18:38:07.859
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.866
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+
+# Created at 2019-07-23T18:38:07.873
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.879
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+
+# Created at 2019-07-23T18:38:07.887
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.893
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+
+# Created at 2019-07-23T18:38:07.899
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.906
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+
+# Created at 2019-07-23T18:38:07.914
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.921
+Unexpected IOException with stream: 	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+
+# Created at 2019-07-23T18:38:07.928
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.934
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:74)
+
+# Created at 2019-07-23T18:38:07.941
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.947
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:79)
+
+# Created at 2019-07-23T18:38:07.954
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.961
+Unexpected IOException with stream: 	at utilities.ConsAPI.login(ConsAPI.java:32)
+
+# Created at 2019-07-23T18:38:07.968
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.974
+Unexpected IOException with stream: 	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+
+# Created at 2019-07-23T18:38:07.982
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:07.989
+Unexpected IOException with stream: 	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+
+# Created at 2019-07-23T18:38:07.995
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.003
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-07-23T18:38:08.009
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.017
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2019-07-23T18:38:08.023
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.029
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2019-07-23T18:38:08.035
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.043
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2019-07-23T18:38:08.049
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.055
+Unexpected IOException with stream: 	at cucumber.runtime.Utils$1.call(Utils.java:37)
+
+# Created at 2019-07-23T18:38:08.061
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.066
+Unexpected IOException with stream: 	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+
+# Created at 2019-07-23T18:38:08.072
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.080
+Unexpected IOException with stream: 	at cucumber.runtime.Utils.invoke(Utils.java:31)
+
+# Created at 2019-07-23T18:38:08.087
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.092
+Unexpected IOException with stream: 	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+
+# Created at 2019-07-23T18:38:08.098
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.104
+Unexpected IOException with stream: 	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+
+# Created at 2019-07-23T18:38:08.110
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.116
+Unexpected IOException with stream: 	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+
+# Created at 2019-07-23T18:38:08.123
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.129
+Unexpected IOException with stream: 	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+
+# Created at 2019-07-23T18:38:08.136
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.142
+Unexpected IOException with stream: 	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+
+# Created at 2019-07-23T18:38:08.148
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.154
+Unexpected IOException with stream: 	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+
+# Created at 2019-07-23T18:38:08.162
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.169
+Unexpected IOException with stream: 	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+
+# Created at 2019-07-23T18:38:08.175
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.181
+Unexpected IOException with stream: 	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+
+# Created at 2019-07-23T18:38:08.188
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.194
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+
+# Created at 2019-07-23T18:38:08.201
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.207
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+
+# Created at 2019-07-23T18:38:08.214
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.220
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created at 2019-07-23T18:38:08.226
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.233
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created at 2019-07-23T18:38:08.240
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.246
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created at 2019-07-23T18:38:08.252
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.259
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created at 2019-07-23T18:38:08.265
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.272
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created at 2019-07-23T18:38:08.278
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.285
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created at 2019-07-23T18:38:08.291
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.298
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+
+# Created at 2019-07-23T18:38:08.304
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.312
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+
+# Created at 2019-07-23T18:38:08.319
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.325
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+
+# Created at 2019-07-23T18:38:08.332
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.338
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created at 2019-07-23T18:38:08.344
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.351
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created at 2019-07-23T18:38:08.357
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.363
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created at 2019-07-23T18:38:08.370
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.376
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created at 2019-07-23T18:38:08.382
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.388
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created at 2019-07-23T18:38:08.395
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.401
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created at 2019-07-23T18:38:08.407
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.414
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+
+# Created at 2019-07-23T18:38:08.420
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.426
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2019-07-23T18:38:08.433
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.440
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2019-07-23T18:38:08.447
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.454
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2019-07-23T18:38:08.461
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.468
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2019-07-23T18:38:08.475
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.481
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2019-07-23T18:38:08.489
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.495
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2019-07-23T18:38:08.501
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.508
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2019-07-23T18:38:08.515
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.522
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2019-07-23T18:38:08.529
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.536
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.542
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #login (tried for 7 second(s) with 500 milliseconds interval)
+
+# Created at 2019-07-23T18:38:08.548
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.555
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+
+# Created at 2019-07-23T18:38:08.562
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.569
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+
+# Created at 2019-07-23T18:38:08.575
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.581
+Unexpected IOException with stream: 	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+
+# Created at 2019-07-23T18:38:08.588
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.594
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:74)
+
+# Created at 2019-07-23T18:38:08.601
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.607
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:79)
+
+# Created at 2019-07-23T18:38:08.614
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.620
+Unexpected IOException with stream: 	at utilities.ConsAPI.login(ConsAPI.java:32)
+
+# Created at 2019-07-23T18:38:08.626
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.633
+Unexpected IOException with stream: 	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+
+# Created at 2019-07-23T18:38:08.640
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.646
+Unexpected IOException with stream: 	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+
+# Created at 2019-07-23T18:38:08.653
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.659
+Unexpected IOException with stream: 	at ?.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:4)
+
+# Created at 2019-07-23T18:38:08.665
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.671
+Unexpected IOException with stream: Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BEIVEA1', ip: '10.1.10.197', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:64983}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0d086dfba23eb1ba5b33a6c6f7e8f63a
+*** Element info: {Using=css selector, value=#login}
+
+# Created at 2019-07-23T18:38:08.677
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.684
+Unexpected IOException with stream: 	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+
+# Created at 2019-07-23T18:38:08.689
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.695
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-07-23T18:38:08.701
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.706
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-07-23T18:38:08.712
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.718
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2019-07-23T18:38:08.724
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.729
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2019-07-23T18:38:08.736
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.741
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2019-07-23T18:38:08.747
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.753
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-07-23T18:38:08.759
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.765
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-07-23T18:38:08.771
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.777
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-07-23T18:38:08.784
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.790
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2019-07-23T18:38:08.797
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.803
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+
+# Created at 2019-07-23T18:38:08.810
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.817
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+
+# Created at 2019-07-23T18:38:08.823
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.829
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2019-07-23T18:38:08.836
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.843
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+
+# Created at 2019-07-23T18:38:08.849
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.859
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+
+# Created at 2019-07-23T18:38:08.865
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.872
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+
+# Created at 2019-07-23T18:38:08.878
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.886
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+
+# Created at 2019-07-23T18:38:08.893
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.899
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+
+# Created at 2019-07-23T18:38:08.905
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.911
+Unexpected IOException with stream: 	at utilities.ConsAPI.assertThat(ConsAPI.java:100)
+
+# Created at 2019-07-23T18:38:08.918
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.924
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:74)
+
+# Created at 2019-07-23T18:38:08.930
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.938
+Unexpected IOException with stream: 	at utilities.ConsAPI.$(ConsAPI.java:79)
+
+# Created at 2019-07-23T18:38:08.944
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.950
+Unexpected IOException with stream: 	at utilities.ConsAPI.login(ConsAPI.java:32)
+
+# Created at 2019-07-23T18:38:08.956
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.963
+Unexpected IOException with stream: 	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:64)
+
+# Created at 2019-07-23T18:38:08.969
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.976
+Unexpected IOException with stream: 	at steps.BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases(BackgroundSteps.java:10)
+
+# Created at 2019-07-23T18:38:08.982
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:08.989
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-07-23T18:38:08.995
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.002
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2019-07-23T18:38:09.007
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.013
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2019-07-23T18:38:09.019
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.025
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2019-07-23T18:38:09.030
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.036
+Unexpected IOException with stream: 	at cucumber.runtime.Utils$1.call(Utils.java:37)
+
+# Created at 2019-07-23T18:38:09.042
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.047
+Unexpected IOException with stream: 	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+
+# Created at 2019-07-23T18:38:09.053
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.059
+Unexpected IOException with stream: 	at cucumber.runtime.Utils.invoke(Utils.java:31)
+
+# Created at 2019-07-23T18:38:09.065
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.071
+Unexpected IOException with stream: 	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+
+# Created at 2019-07-23T18:38:09.075
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.082
+Unexpected IOException with stream: 	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+
+# Created at 2019-07-23T18:38:09.089
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.094
+Unexpected IOException with stream: 	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+
+# Created at 2019-07-23T18:38:09.100
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.106
+Unexpected IOException with stream: 	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+
+# Created at 2019-07-23T18:38:09.112
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.118
+Unexpected IOException with stream: 	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+
+# Created at 2019-07-23T18:38:09.124
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.130
+Unexpected IOException with stream: 	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+
+# Created at 2019-07-23T18:38:09.137
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.143
+Unexpected IOException with stream: 	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+
+# Created at 2019-07-23T18:38:09.150
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.156
+Unexpected IOException with stream: 	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+
+# Created at 2019-07-23T18:38:09.165
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.172
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+
+# Created at 2019-07-23T18:38:09.178
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.185
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+
+# Created at 2019-07-23T18:38:09.191
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.197
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created at 2019-07-23T18:38:09.203
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.210
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created at 2019-07-23T18:38:09.216
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.222
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created at 2019-07-23T18:38:09.230
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.237
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created at 2019-07-23T18:38:09.243
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.249
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created at 2019-07-23T18:38:09.255
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.262
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created at 2019-07-23T18:38:09.269
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.275
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+
+# Created at 2019-07-23T18:38:09.281
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.288
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+
+# Created at 2019-07-23T18:38:09.294
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.300
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+
+# Created at 2019-07-23T18:38:09.306
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.312
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created at 2019-07-23T18:38:09.319
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.324
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created at 2019-07-23T18:38:09.330
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.337
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created at 2019-07-23T18:38:09.342
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.349
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created at 2019-07-23T18:38:09.355
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.361
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created at 2019-07-23T18:38:09.367
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.372
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created at 2019-07-23T18:38:09.378
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.385
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+
+# Created at 2019-07-23T18:38:09.391
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.397
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2019-07-23T18:38:09.403
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.409
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2019-07-23T18:38:09.415
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.421
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2019-07-23T18:38:09.428
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.435
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2019-07-23T18:38:09.441
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.447
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2019-07-23T18:38:09.454
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.460
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2019-07-23T18:38:09.467
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.473
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2019-07-23T18:38:09.480
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.487
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2019-07-23T18:38:09.493
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.499
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-23T18:38:09.506
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,runners.TestRunner,null,null,null
+
+

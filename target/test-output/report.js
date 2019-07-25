@@ -6,6 +6,10 @@ formatter.feature({
   "id": "search-functionality-verification",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 7020874273,
+  "status": "passed"
+});
 formatter.background({
   "line": 3,
   "name": "user is logged in and on purchases module",
@@ -19,10 +23,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()"
+  "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
 });
 formatter.result({
-  "duration": 15050169778,
+  "duration": 9882177175,
   "status": "passed"
 });
 formatter.scenario({
@@ -40,7 +44,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "user enters a word into a search box",
+  "name": "user enters a word \"apple\" into a search box",
   "keyword": "When "
 });
 formatter.step({
@@ -51,44 +55,66 @@ formatter.step({
     }
   ],
   "line": 10,
-  "name": "system should display results that contain the word user searched for",
+  "name": "system should display results that contain the word \"apple\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "a small tab with the word appears in the search box",
+  "name": "a small tab with the word \"apple\" appears in the search box",
   "keyword": "And "
 });
 formatter.match({
   "location": "OdooPurchasesSearchSteps.user_is_on_odoo_purchases_products_module()"
 });
 formatter.result({
-  "duration": 1859032476,
+  "duration": 1656826894,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box()"
+  "arguments": [
+    {
+      "val": "apple",
+      "offset": 20
+    }
+  ],
+  "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box(String)"
 });
 formatter.result({
-  "duration": 1114556908,
+  "duration": 1031071281,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word_user_searched_for()"
+  "arguments": [
+    {
+      "val": "apple",
+      "offset": 53
+    }
+  ],
+  "location": "OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word(String)"
 });
 formatter.result({
-  "duration": 277899707,
+  "duration": 459849816,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.a_small_tab_with_the_word_appears_in_the_search_box()"
+  "arguments": [
+    {
+      "val": "apple",
+      "offset": 27
+    }
+  ],
+  "location": "OdooPurchasesSearchSteps.a_small_tab_with_the_word_appears_in_the_search_box(String)"
 });
 formatter.result({
-  "duration": 42486122,
+  "duration": 37170070,
   "status": "passed"
 });
 formatter.after({
-  "duration": 815075652,
+  "duration": 582978986,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3581790532,
   "status": "passed"
 });
 formatter.background({
@@ -104,10 +130,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()"
+  "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
 });
 formatter.result({
-  "duration": 10287620705,
+  "duration": 8019787173,
   "status": "passed"
 });
 formatter.scenario({
@@ -142,32 +168,32 @@ formatter.match({
   "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon()"
 });
 formatter.result({
-  "duration": 219436437,
+  "duration": 144074860,
   "status": "passed"
 });
 formatter.match({
   "location": "OdooPurchasesSearchSteps.advanced_search_options_should_display()"
 });
 formatter.result({
-  "duration": 38833104,
+  "duration": 99951547,
   "status": "passed"
 });
 formatter.match({
   "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon_again()"
 });
 formatter.result({
-  "duration": 75025018,
+  "duration": 135411851,
   "status": "passed"
 });
 formatter.match({
   "location": "OdooPurchasesSearchSteps.advanced_search_options_should_disapear()"
 });
 formatter.result({
-  "duration": 38680004,
+  "duration": 35139991,
   "status": "passed"
 });
 formatter.after({
-  "duration": 778336341,
+  "duration": 590375280,
   "status": "passed"
 });
 });

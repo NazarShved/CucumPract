@@ -1,0 +1,6 @@
+20:51:20.347 [main] INFO  steps.BaseTest - Advanced search options tab appeared
+20:51:20.551 [main] INFO  steps.BaseTest - User clicks again on the icon 
+20:51:20.588 [main] INFO  steps.BaseTest - Advanced search tab is invisible
+20:51:20.589 [main] INFO  steps.BaseTest - display/hide advanced search option passed succesfully
+
+'
