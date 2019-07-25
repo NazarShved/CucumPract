@@ -1,0 +1,35 @@
+
+20:34:16.085 [main] INFO  steps.BaseTest - ------>Starting to execute search products by name<--------
+
+20:34:26.706 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+20:34:28.326 [main] INFO  steps.BaseTest - Tab switched to Products
+20:34:29.460 [main] INFO  steps.BaseTest - Searching for apple
+20:34:29.873 [main] INFO  steps.BaseTest - Word apple is present in search results
+20:34:29.910 [main] INFO  steps.BaseTest - Word apple is present in search field as a tab
+20:34:29.912 [main] INFO  steps.BaseTest - search products by name passed succesfully
+
+'
+20:34:34.499 [main] INFO  steps.BaseTest - ------>Starting to execute display/hide advanced search option<--------
+
+20:34:43.630 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+20:34:43.774 [main] INFO  steps.BaseTest - User clicked on search icon
+20:34:43.806 [main] INFO  steps.BaseTest - Advanced search options tab appeared
+20:34:43.876 [main] INFO  steps.BaseTest - User clicks again on the icon 
+20:34:43.905 [main] INFO  steps.BaseTest - Advanced search tab is invisible
+20:34:43.906 [main] INFO  steps.BaseTest - display/hide advanced search option passed succesfully
+
+'
+20:50:54.877 [main] INFO  steps.BaseTest - ------>Starting to execute search products by name<--------
+
+20:51:04.767 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+20:51:06.433 [main] INFO  steps.BaseTest - Tab switched to Products
+20:51:07.465 [main] INFO  steps.BaseTest - Searching for apple
+20:51:07.927 [main] INFO  steps.BaseTest - Word apple is present in search results
+20:51:07.966 [main] INFO  steps.BaseTest - Word apple is present in search field as a tab
+20:51:07.967 [main] INFO  steps.BaseTest - search products by name passed succesfully
+
+'
+20:51:12.134 [main] INFO  steps.BaseTest - ------>Starting to execute display/hide advanced search option<--------
+
+20:51:20.163 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+20:51:20.312 [main] INFO  steps.BaseTest - User clicked on search icon

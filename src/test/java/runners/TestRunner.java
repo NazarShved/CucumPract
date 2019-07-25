@@ -18,5 +18,5 @@ import org.junit.runner.RunWith;
         // tags={"~@End2End", "~@SanityTest"}//ignore tests that are part of either
 )
 
-public class Runner {
+public class TestRunner {
 }
