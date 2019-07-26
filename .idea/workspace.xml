@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e87e593-be5f-4271-ba4a-93fbdb722735" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PurchasesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/BackgroundSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchSteps.java" afterDir="false" />
+    <list default="true" id="55042110-fe57-4842-8f5f-89a508c10fdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumberPract.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,16 +16,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConsAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="21">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-238">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -40,150 +46,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/BackgroundSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="50" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="25" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2102#2103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Conditions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConsAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/PurchasesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/utilities/Conditions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/ConsAPI.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/BackgroundSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PurchasesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchSteps.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="221" />
-    <option name="width" value="803" />
-    <option name="height" value="775" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -194,29 +73,29 @@
           <expand>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -224,7 +103,7 @@
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -232,7 +111,7 @@
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -240,7 +119,7 @@
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -248,47 +127,30 @@
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumPract" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberPract" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="steps" />
-      <recent name="utilities" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Shvednazar994\Desktop\cucumberPract" />
-      <recent name="C:\Users\Shvednazar994\Desktop\cucumberPract\src\test\java\pages" />
-      <recent name="C:\Users\Shvednazar994\Desktop\cucumberPract\src\test\java\utilities" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -302,221 +164,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cucumberPract" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Runner" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e87e593-be5f-4271-ba4a-93fbdb722735" name="Default Changelist" comment="" />
-      <created>1563754188896</created>
+      <changelist id="55042110-fe57-4842-8f5f-89a508c10fdf" name="Default Changelist" comment="" />
+      <created>1563910743187</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563754188896</updated>
+      <updated>1563910743187</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Runner - 2019.07.21 at 20h 34m 45s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 20h 35m 48s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 20h 38m 27s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 20h 39m 18s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 20h 39m 44s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 20h 42m 37s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 20h 53m 35s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 21h 01m 30s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 21h 02m 28s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.07.21 at 21h 04m 36s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32872504" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19662058" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven-2 Build" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.features">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Conditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="50" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/BackgroundSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PurchasesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConsAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="21">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-238">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
