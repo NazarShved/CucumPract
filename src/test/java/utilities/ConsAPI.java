@@ -15,17 +15,17 @@ import java.util.List;
 import static utilities.Conditions.listSizeIsAtLeast;
 
 public abstract class ConsAPI {
+    public abstract WebDriver getWebDriver();
+    public static WebDriverWait wait;
+    public static Config config;
+
+
 
     public ConsAPI(){
         config = new Config("config.properties");
         wait = new WebDriverWait(getWebDriver(), 7);
-        log = LogManager.getLogger(ConsAPI.class.getName());
     }
 
-    public abstract WebDriver getWebDriver();
-    public static WebDriverWait wait;
-    public static Config config;
-    public static Logger log;
 
     //Loggs in when on ligin page
     public void login(){

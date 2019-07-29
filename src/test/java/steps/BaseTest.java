@@ -1,14 +1,15 @@
 package steps;
 
-
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import pages.PurchasesPage;
 import org.openqa.selenium.WebDriver;
 import utilities.ConsAPI;
 import utilities.DriverSetup;
 
 public class BaseTest extends ConsAPI {
+    public static Logger log = LogManager.getLogger(BaseTest.class.getName());
+
 
     public PurchasesPage purchases;
 

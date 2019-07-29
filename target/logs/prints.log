@@ -1,0 +1,28 @@
+22:27:31.014 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+22:27:38.629 [main] ERROR steps.BaseTest - Create a new Vendor BillFailed
+
+
+22:28:37.396 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new Vendor Bill<--------
+
+22:28:43.886 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+22:28:52.231 [main] INFO  steps.BaseTest - Create a new Vendor Bill passed succesfully
+
+'
+22:29:20.421 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new Vendor Bill<--------
+
+22:29:26.977 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+22:29:34.834 [main] INFO  steps.BaseTest - Create a new Vendor Bill passed succesfully
+
+'
+22:30:17.060 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new Vendor Bill<--------
+
+22:30:23.527 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+22:30:31.347 [main] INFO  steps.BaseTest - Create a new Vendor Bill passed succesfully
+
+'
+11:41:01.083 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new Vendor Bill<--------
+
+11:41:08.034 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:41:15.719 [main] INFO  steps.BaseTest - Create a new Vendor Bill passed succesfully
+
+'

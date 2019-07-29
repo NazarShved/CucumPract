@@ -1,173 +1,146 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("odooPurchasesSearch.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("oddoPurchasesCreateVendorBill.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Search functionality verification",
+  "line": 2,
+  "name": "Creating a Vendor Bill",
   "description": "",
-  "id": "search-functionality-verification",
-  "keyword": "Feature"
+  "id": "creating-a-vendor-bill",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Smoke"
+    }
+  ]
+});
+formatter.before({
+  "duration": 5499647872,
+  "status": "passed"
 });
 formatter.background({
-  "line": 3,
+  "line": 4,
   "name": "user is logged in and on purchases module",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "go to odoo, log in and go to purcases",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()"
+  "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
 });
 formatter.result({
-  "duration": 15050169778,
+  "duration": 6944054847,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 6,
-  "name": "search products by name",
+  "line": 7,
+  "name": "Create a new Vendor Bill",
   "description": "",
-  "id": "search-functionality-verification;search-products-by-name",
+  "id": "creating-a-vendor-bill;create-a-new-vendor-bill",
   "type": "scenario",
   "keyword": "Scenario"
-});
-formatter.step({
-  "line": 7,
-  "name": "user is on odoo purchases/products module",
-  "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "user enters a word into a search box",
+  "name": "User is on odoo Purchases/Vendor Bills module",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "User clicks on Create button",
   "keyword": "When "
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 9,
-      "value": "# And presses Enter key or clicks on search button"
-    }
-  ],
   "line": 10,
-  "name": "system should display results that contain the word user searched for",
-  "keyword": "Then "
+  "name": "User fills out the form to create a new vendor bill",
+  "keyword": "And "
 });
 formatter.step({
   "line": 11,
-  "name": "a small tab with the word appears in the search box",
+  "name": "User clicks on Add an item button",
   "keyword": "And "
 });
-formatter.match({
-  "location": "OdooPurchasesSearchSteps.user_is_on_odoo_purchases_products_module()"
-});
-formatter.result({
-  "duration": 1859032476,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box()"
-});
-formatter.result({
-  "duration": 1114556908,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word_user_searched_for()"
-});
-formatter.result({
-  "duration": 277899707,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesSearchSteps.a_small_tab_with_the_word_appears_in_the_search_box()"
-});
-formatter.result({
-  "duration": 42486122,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 815075652,
-  "status": "passed"
-});
-formatter.background({
-  "line": 3,
-  "name": "user is logged in and on purchases module",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
+formatter.step({
+  "line": 12,
+  "name": "User enters \"ice cream\" into item name field and clicks Enter",
+  "keyword": "And "
 });
 formatter.step({
-  "line": 4,
-  "name": "go to odoo, log in and go to purcases",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "BackgroundSteps.go_to_odoo_log_in_and_go_to_purcases()"
-});
-formatter.result({
-  "duration": 10287620705,
-  "status": "passed"
-});
-formatter.scenario({
   "line": 13,
-  "name": "display/hide advanced search option",
-  "description": "",
-  "id": "search-functionality-verification;display/hide-advanced-search-option",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 14,
-  "name": "user clicks on the search icon",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 15,
-  "name": "advanced search options should display",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 16,
-  "name": "user clicks on the search icon again",
+  "name": "User clicks on Save button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
-  "name": "advanced search options should disapear",
+  "line": 14,
+  "name": "\"ice cream\" appears in the created bill",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon()"
+  "location": "OdooPurchasesCreateVendorBillSteps.user_is_on_odoo_Purchases_Vendor_Bills_module()"
 });
 formatter.result({
-  "duration": 219436437,
+  "duration": 1419741574,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.advanced_search_options_should_display()"
+  "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Create_button()"
 });
 formatter.result({
-  "duration": 38833104,
+  "duration": 116787195,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon_again()"
+  "location": "OdooPurchasesCreateVendorBillSteps.user_fills_out_the_form_to_create_a_new_vendor_bill()"
 });
 formatter.result({
-  "duration": 75025018,
+  "duration": 2817897966,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesSearchSteps.advanced_search_options_should_disapear()"
+  "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Add_an_item_button()"
 });
 formatter.result({
-  "duration": 38680004,
+  "duration": 126912029,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ice cream",
+      "offset": 13
+    }
+  ],
+  "location": "OdooPurchasesCreateVendorBillSteps.user_enters_into_item_name_field_and_clicks_Enter(String)"
+});
+formatter.result({
+  "duration": 1268957331,
+  "status": "passed"
+});
+formatter.match({
+  "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Save_button()"
+});
+formatter.result({
+  "duration": 120889871,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ice cream",
+      "offset": 1
+    }
+  ],
+  "location": "OdooPurchasesCreateVendorBillSteps.appears_in_the_created_bill(String)"
+});
+formatter.result({
+  "duration": 1798944747,
   "status": "passed"
 });
 formatter.after({
-  "duration": 778336341,
+  "duration": 677411793,
   "status": "passed"
 });
 });

@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.597153">
-    <testcase classname="Search functionality verification" name="search products by name" time="19.159221">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.791245">
+    <testcase classname="Creating a Vendor Bill" name="Create a new Vendor Bill" time="20.791245">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
-Given user is on odoo purchases/products module.............................passed
-When user enters a word into a search box...................................passed
-Then system should display results that contain the word user searched for..passed
-And a small tab with the word appears in the search box.....................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Search functionality verification" name="display/hide advanced search option" time="11.437932">
-        <system-out>
-            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
-Given user clicks on the search icon........................................passed
-Then advanced search options should display.................................passed
-When user clicks on the search icon again...................................passed
-Then advanced search options should disapear................................passed
+Given User is on odoo Purchases/Vendor Bills module.........................passed
+When User clicks on Create button...........................................passed
+And User fills out the form to create a new vendor bill.....................passed
+And User clicks on Add an item button.......................................passed
+And User enters "ice cream" into item name field and clicks Enter...........passed
+When User clicks on Save button.............................................passed
+Then "ice cream" appears in the created bill................................passed
 ]]>
         </system-out>
     </testcase>
