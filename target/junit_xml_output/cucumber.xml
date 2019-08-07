@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.172434">
-    <testcase classname="Creating new vendor account under Vendors functionality." name="Create a new vendor account" time="21.172434">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.757142">
+    <testcase classname="Search by PO functionality verification" name="search by right PO number" time="17.774462">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
-Given User is on Odoo Purchases/Vendor Bills module.........................passed
-When User clicks create button..............................................passed
-And User types name.........................................................passed
-When User clicks create button on the buttom of the page....................passed
-And User fills out form to create a new vendors account.....................passed
-And User clicks Save&Close button...........................................passed
-Then New contact info appears on the screen.................................passed
+When user enters a "PO" number..............................................passed
+Then User should see receipt by "PO" number.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search by PO functionality verification" name="search by wrong PO number" time="6.98268">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+When user enters a word "<string>" into a search box........................passed
+Then User should see message that could not found receipt...................passed
 ]]>
         </system-out>
     </testcase>

@@ -1,19 +1,19 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("odooPurchasesCreateVendorAccount.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("odoPurchasesSearchByPO.feature");
 formatter.feature({
-  "line": 3,
-  "name": "Creating new vendor account under Vendors functionality.",
+  "line": 2,
+  "name": "Search by PO functionality verification",
   "description": "",
-  "id": "creating-new-vendor-account-under-vendors-functionality.",
+  "id": "search-by-po-functionality-verification",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@Aigerim"
+      "name": "@nurlan"
     }
   ]
 });
 formatter.before({
-  "duration": 4342632657,
+  "duration": 6776788673,
   "status": "passed"
 });
 formatter.background({
@@ -32,103 +32,120 @@ formatter.match({
   "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
 });
 formatter.result({
-  "duration": 7669689326,
+  "duration": 5048049270,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 8,
-  "name": "Create a new vendor account",
+  "line": 9,
+  "name": "search by right PO number",
   "description": "",
-  "id": "creating-new-vendor-account-under-vendors-functionality.;create-a-new-vendor-account",
+  "id": "search-by-po-functionality-verification;search-by-right-po-number",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 9,
-  "name": "User is on Odoo Purchases/Vendor Bills module",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 10,
-  "name": "User clicks create button",
-  "keyword": "When "
-});
-formatter.step({
   "line": 11,
-  "name": "User types name",
-  "keyword": "And "
+  "name": "user enters a \"PO\" number",
+  "keyword": "When "
 });
 formatter.step({
   "line": 12,
-  "name": "User clicks create button on the buttom of the page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "User fills out form to create a new vendors account",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "User clicks Save\u0026Close button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "New contact info appears on the screen.",
+  "name": "User should see receipt by \"PO\" number",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.user_is_on_Odoo_Purchases_Vendor_Bills_module()"
+  "arguments": [
+    {
+      "val": "PO",
+      "offset": 15
+    }
+  ],
+  "location": "OdooPurchasesSearchByPOSteps.user_enters_a_number(String)"
 });
 formatter.result({
-  "duration": 4395125701,
+  "duration": 5819017172,
   "status": "passed"
 });
 formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_create_button()"
+  "arguments": [
+    {
+      "val": "PO",
+      "offset": 28
+    }
+  ],
+  "location": "OdooPurchasesSearchByPOSteps.user_should_see_receipt_by_number(String)"
 });
 formatter.result({
-  "duration": 149845477,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.user_types_name()"
-});
-formatter.result({
-  "duration": 1605261239,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_create_button_on_the_buttom_of_the_page()"
-});
-formatter.result({
-  "duration": 180275541,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.user_fills_out_form_to_create_a_new_vendors_account()"
-});
-formatter.result({
-  "duration": 2281854508,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_Save_Close_button()"
-});
-formatter.result({
-  "duration": 182366898,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OdooPurchasesCreateNewVendorAccount.new_contact_info_appears_on_the_screen()"
-});
-formatter.result({
-  "duration": 148598418,
+  "duration": 49646164,
   "status": "passed"
 });
 formatter.after({
-  "duration": 216783854,
+  "duration": 80960527,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1076193607,
+  "status": "passed"
+});
+formatter.background({
+  "line": 5,
+  "name": "user is logged in and on purchases module",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 6,
+  "name": "go to odoo, log in and go to purcases",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
+});
+formatter.result({
+  "duration": 4946282839,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "search by wrong PO number",
+  "description": "",
+  "id": "search-by-po-functionality-verification;search-by-wrong-po-number",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 16,
+  "name": "user enters a word \"\u003cstring\u003e\" into a search box",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "User should see message that could not found receipt",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\u003cstring\u003e",
+      "offset": 20
+    }
+  ],
+  "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box(String)"
+});
+formatter.result({
+  "duration": 871199784,
+  "status": "passed"
+});
+formatter.match({
+  "location": "OdooPurchasesSearchByPOSteps.user_should_see_message_that_could_not_found_receipt()"
+});
+formatter.result({
+  "duration": 6303228,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 82701033,
   "status": "passed"
 });
 });

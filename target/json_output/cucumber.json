@@ -1,6 +1,6 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
         "line": 5,
@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7669689326,
+              "duration": 5048049270,
               "status": "passed"
             },
             "line": 6,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 4342632657,
+              "duration": 6776788673,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 8,
-        "name": "Create a new vendor account",
+        "line": 9,
+        "name": "search by right PO number",
         "description": "",
-        "id": "creating-new-vendor-account-under-vendors-functionality.;create-a-new-vendor-account",
+        "id": "search-by-po-functionality-verification;search-by-right-po-number",
         "after": [
           {
             "result": {
-              "duration": 216783854,
+              "duration": 80960527,
               "status": "passed"
             },
             "match": {
@@ -55,100 +55,135 @@
         "steps": [
           {
             "result": {
-              "duration": 4395125701,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on Odoo Purchases/Vendor Bills module",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_is_on_Odoo_Purchases_Vendor_Bills_module()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 149845477,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks create button",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_create_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1605261239,
+              "duration": 5819017172,
               "status": "passed"
             },
             "line": 11,
-            "name": "User types name",
+            "name": "user enters a \"PO\" number",
             "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_types_name()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 180275541,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks create button on the buttom of the page",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_create_button_on_the_buttom_of_the_page()"
+              "arguments": [
+                {
+                  "val": "PO",
+                  "offset": 15
+                }
+              ],
+              "location": "OdooPurchasesSearchByPOSteps.user_enters_a_number(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2281854508,
+              "duration": 49646164,
               "status": "passed"
             },
-            "line": 13,
-            "name": "User fills out form to create a new vendors account",
+            "line": 12,
+            "name": "User should see receipt by \"PO\" number",
             "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_fills_out_form_to_create_a_new_vendors_account()"
+              "arguments": [
+                {
+                  "val": "PO",
+                  "offset": 28
+                }
+              ],
+              "location": "OdooPurchasesSearchByPOSteps.user_should_see_receipt_by_number(String)"
             },
-            "keyword": "And "
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "user is logged in and on purchases module",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4946282839,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to odoo, log in and go to purcases",
+            "match": {
+              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1076193607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "search by wrong PO number",
+        "description": "",
+        "id": "search-by-po-functionality-verification;search-by-wrong-po-number",
+        "after": [
+          {
+            "result": {
+              "duration": 82701033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 871199784,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters a word \"\u003cstring\u003e\" into a search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cstring\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box(String)"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 182366898,
+              "duration": 6303228,
               "status": "passed"
             },
-            "line": 14,
-            "name": "User clicks Save\u0026Close button",
+            "line": 17,
+            "name": "User should see message that could not found receipt",
             "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_Save_Close_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 148598418,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "New contact info appears on the screen.",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.new_contact_info_appears_on_the_screen()"
+              "location": "OdooPurchasesSearchByPOSteps.user_should_see_message_that_could_not_found_receipt()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Creating new vendor account under Vendors functionality.",
+    "name": "Search by PO functionality verification",
     "description": "",
-    "id": "creating-new-vendor-account-under-vendors-functionality.",
+    "id": "search-by-po-functionality-verification",
     "keyword": "Feature",
-    "uri": "odooPurchasesCreateVendorAccount.feature",
+    "uri": "odoPurchasesSearchByPO.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@Aigerim"
+        "name": "@nurlan"
       }
     ]
   }

@@ -1,27 +1,7 @@
-22:14:07.123 [main] ERROR steps.BaseTest - Create a new vendor accountFailed
+11:09:35.072 [main] INFO  steps.BaseTest - ------>Starting to execute search by wrong PO number<--------
 
-
-22:16:35.198 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new vendor account<--------
-
-22:16:42.910 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-22:16:59.762 [main] ERROR steps.BaseTest - Create a new vendor accountFailed
-
-
-22:20:20.829 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new vendor account<--------
-
-22:20:29.435 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-22:20:35.196 [main] INFO  steps.BaseTest - Create a new vendor account passed succesfully
-
-'
-22:25:12.874 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new vendor account<--------
-
-22:25:20.237 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-22:25:27.942 [main] ERROR steps.BaseTest - Create a new vendor accountFailed
-
-
-22:34:00.922 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new vendor account<--------
-
-22:34:08.602 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-22:34:17.603 [main] INFO  steps.BaseTest - Create a new vendor account passed succesfully
+11:09:40.024 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:09:40.898 [main] INFO  steps.BaseTest - Searching for <string>
+11:09:40.906 [main] INFO  steps.BaseTest - search by wrong PO number passed succesfully
 
 '
