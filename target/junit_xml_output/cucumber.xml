@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.791245">
-    <testcase classname="Creating a Vendor Bill" name="Create a new Vendor Bill" time="20.791245">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.172434">
+    <testcase classname="Creating new vendor account under Vendors functionality." name="Create a new vendor account" time="21.172434">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
-Given User is on odoo Purchases/Vendor Bills module.........................passed
-When User clicks on Create button...........................................passed
-And User fills out the form to create a new vendor bill.....................passed
-And User clicks on Add an item button.......................................passed
-And User enters "ice cream" into item name field and clicks Enter...........passed
-When User clicks on Save button.............................................passed
-Then "ice cream" appears in the created bill................................passed
+Given User is on Odoo Purchases/Vendor Bills module.........................passed
+When User clicks create button..............................................passed
+And User types name.........................................................passed
+When User clicks create button on the buttom of the page....................passed
+And User fills out form to create a new vendors account.....................passed
+And User clicks Save&Close button...........................................passed
+Then New contact info appears on the screen.................................passed
 ]]>
         </system-out>
     </testcase>
