@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.757142">
-    <testcase classname="Search by PO functionality verification" name="search by right PO number" time="17.774462">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="56.304334">
+    <testcase classname="Cheking Vendor module" name="Check kanban List" time="39.259434">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
-When user enters a "PO" number..............................................passed
-Then User should see receipt by "PO" number.................................passed
+Given User goes to kanban to assert it's list...............................passed
+Then user goes to List  to assert it's list.................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Search by PO functionality verification" name="search by wrong PO number" time="6.98268">
+    <testcase classname="Cheking Vendor module" name="SearchingVendorCompany in Purchase module" time="17.0449">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
-When user enters a word "<string>" into a search box........................passed
-Then User should see message that could not found receipt...................passed
+When User goes to Vendor module.............................................passed
+And User creates a company leaving name empty and saves it..................passed
+And User should see message "The following fields are invalid:".............passed
+Then User should see the message dissapeared................................passed
 ]]>
         </system-out>
     </testcase>

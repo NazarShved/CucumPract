@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f52e440-5110-47d0-9a03-8c874a718394" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchByPOSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/odoPurchasesSearchByPO.feature" afterDir="false" />
+    <list default="true" id="ada3a82c-3dee-4f59-a451-97883414b7f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/OdoPurchasesCreateVendorCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/odooPurchasesCheckingKanbanAndVendorCompany.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/json_output/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json_output/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/junit_xml_output/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/junit_xml_output/cucumber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/prints.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/OdooPurchasesSearchByPOSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/OdooPurchasesSearchByPOSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/jquery-1.8.2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-output/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-output/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,92 +27,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="2">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesCreateNewVendorAccount.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdoPurchasesCreateVendorCompany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesCreateVendorBillSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/oddoPurchasesCreateVendorBill.feature">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesCreateVendorAccount.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="47" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/odoPurchasesSearchByPO.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchByPOSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="459">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesCheckingKanbanAndVendorCompany.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -126,49 +76,52 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/resources/features/odooPurchasesCheckingKanbanAndVendorComapny" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/odooPurchasesCheckingKanbanAndVendorCompany.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/OdoPurchasesCreateVendorCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/odoPurchasesSearchByPO.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchByPOSteps.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="958" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="6" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -176,7 +129,7 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -184,7 +137,7 @@
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -192,7 +145,7 @@
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -200,14 +153,14 @@
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cucumberPract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OdooPurchasesWIthCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="OdooPurchasesWIthCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -218,8 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,170 +215,132 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f52e440-5110-47d0-9a03-8c874a718394" name="Default Changelist" comment="" />
-      <created>1565191719256</created>
+      <changelist id="ada3a82c-3dee-4f59-a451-97883414b7f0" name="Default Changelist" comment="" />
+      <created>1565319909636</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565191719256</updated>
+      <updated>1565319909636</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.08.07 at 10h 30m 32s.xml">
+    <history-entry file="TestRunner - 2019.08.08 at 23h 07m 49s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 10h 43m 04s.xml">
+    <history-entry file="TestRunner - 2019.08.08 at 23h 08m 15s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 10h 45m 27s.xml">
+    <history-entry file="TestRunner - 2019.08.08 at 23h 25m 39s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 10h 50m 31s.xml">
+    <history-entry file="TestRunner - 2019.08.08 at 23h 34m 00s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 10h 51m 37s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 10h 56m 16s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 11h 00m 13s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 11h 04m 30s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.07 at 11h 07m 01s.xml">
+    <history-entry file="TestRunner - 2019.08.08 at 23h 37m 30s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="958" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24969475" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36459908" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4729951" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PurchasesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/odooPurchasesWithCucumber.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConsAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
+        <state relative-caret-position="-810">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="50">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Conditions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
+        <state relative-caret-position="-1344">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesCreateNewVendorAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesCreateVendorBillSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesCreateVendorAccount.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/oddoPurchasesCreateVendorBill.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odoPurchasesSearchByPO.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesSearch.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="47" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="51">
+          <caret line="3" column="47" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odoPurchasesSearchByPO.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesCreateVendorAccount.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/oddoPurchasesCreateVendorBill.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdooPurchasesSearchByPOSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/odooPurchasesCheckingKanbanAndVendorCompany.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/OdoPurchasesCreateVendorCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -436,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="2">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>

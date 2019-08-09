@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         monochrome = true,
         strict = false,
-        tags = "@nurlan"
+        tags = "@Vusal"
         //tags = {"@SanityTest, @End2End"} Execute test cases that are a part of any of both
         //tags = {"@SanityTest", "@End2End"} Execute test cases that are part of BOTH at the same time
         //tags = {"~@End2End"}//ignore specified scenario
