@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="33.277479">
-<testcase classname="Search functionality verification" name="search products by name" time="20.670948">
-<system-out><![CDATA[Given go to odoo, log in and go to purcases.................................passed
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="165.360457">
+<testcase classname="Search functionality verification" name="search products by name" time="99.658679">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at steps.OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word(OdooPurchasesSearchSteps.java:36)&#13;&#10;&#9;at ✽.Then system should display results that contain the word &quot;apple&quot;(odooPurchasesSearch.feature:10)&#13;&#10;"><![CDATA[Given go to odoo, log in and go to purcases.................................passed
 Given user is on odoo purchases/products module.............................passed
 When user enters a word "apple" into a search box...........................passed
-Then system should display results that contain the word "apple"............passed
-And a small tab with the word "apple" appears in the search box.............passed
-]]></system-out>
+Then system should display results that contain the word "apple"............failed
+And a small tab with the word "apple" appears in the search box.............skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at steps.OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word(OdooPurchasesSearchSteps.java:36)
+	at ✽.Then system should display results that contain the word "apple"(odooPurchasesSearch.feature:10)
+]]></failure>
 </testcase>
-<testcase classname="Search functionality verification" name="display/hide advanced search option" time="12.606531">
-<system-out><![CDATA[Given go to odoo, log in and go to purcases.................................passed
-Given user clicks on the search icon........................................passed
-Then advanced search options should display.................................passed
-When user clicks on the search icon again...................................passed
-Then advanced search options should disapear................................passed
-]]></system-out>
+<testcase classname="Search functionality verification" name="display/hide advanced search option" time="65.701778">
+<failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BEIVEA1', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:50222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a09c3e89161394efd493ea652672f046&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#13;&#10;&#9;at pages.PurchasesPage.goToPurchases(PurchasesPage.java:65)&#13;&#10;&#9;at steps.OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases(OdooPurchasesSearchSteps.java:16)&#13;&#10;&#9;at ✽.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:5)&#13;&#10;"><![CDATA[Given go to odoo, log in and go to purcases.................................failed
+Given user clicks on the search icon........................................skipped
+Then advanced search options should display.................................skipped
+When user clicks on the search icon again...................................skipped
+Then advanced search options should disappear...............................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BEIVEA1', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:50222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a09c3e89161394efd493ea652672f046
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:65)
+	at steps.OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases(OdooPurchasesSearchSteps.java:16)
+	at ✽.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:5)
+]]></failure>
 </testcase>
 </testsuite>

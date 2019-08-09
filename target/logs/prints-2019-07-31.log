@@ -1,0 +1,36 @@
+21:34:35.389 [main] INFO  steps.BaseTest - Word apple is present in search results
+21:34:35.486 [main] INFO  steps.BaseTest - Word apple is present in search field as a tab
+21:34:35.487 [main] INFO  steps.BaseTest - search products by name passed succesfully
+
+'
+21:34:40.446 [main] INFO  steps.BaseTest - ------>Starting to execute display/hide advanced search option<--------
+
+21:34:47.835 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+21:34:47.987 [main] INFO  steps.BaseTest - User clicked on search icon
+21:34:48.023 [main] INFO  steps.BaseTest - Advanced search options tab appeared
+21:34:48.099 [main] INFO  steps.BaseTest - User clicks again on the icon 
+21:34:48.130 [main] INFO  steps.BaseTest - Advanced search tab is invisible
+21:34:48.133 [main] INFO  steps.BaseTest - display/hide advanced search option passed succesfully
+
+'
+21:36:25.138 [main] INFO  steps.BaseTest - ------>Starting to execute search products by name<--------
+
+21:36:33.840 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+21:36:35.299 [main] INFO  steps.BaseTest - Tab switched to Products
+21:36:36.919 [main] INFO  steps.BaseTest - Searching for apple
+21:36:37.369 [main] ERROR steps.BaseTest - search products by nameFailed
+
+
+21:36:42.072 [main] INFO  steps.BaseTest - ------>Starting to execute display/hide advanced search option<--------
+
+21:36:49.879 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+21:36:50.042 [main] INFO  steps.BaseTest - User clicked on search icon
+21:36:50.079 [main] INFO  steps.BaseTest - Advanced search options tab appeared
+21:36:50.410 [main] ERROR steps.BaseTest - display/hide advanced search optionFailed
+
+
+18:44:26.543 [main] INFO  steps.BaseTest - ------>Starting to execute search products by name<--------
+
+18:45:44.209 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+18:45:50.106 [main] INFO  steps.BaseTest - Tab switched to Products
+18:45:53.833 [main] INFO  steps.BaseTest - Searching for apple

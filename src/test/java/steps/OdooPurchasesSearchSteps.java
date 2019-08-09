@@ -3,6 +3,7 @@ package steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import utilities.Conditions;
 
@@ -25,7 +26,6 @@ public class OdooPurchasesSearchSteps extends BaseTest{
 
     @When("^user enters a word \"([^\"]*)\" into a search box$")
     public void user_enters_a_word_into_a_search_box(String input){
-
         purchases.search(input);
         log.info("Searching for " + input);
     }
@@ -33,6 +33,7 @@ public class OdooPurchasesSearchSteps extends BaseTest{
 
     @Then("^system should display results that contain the word \"([^\"]*)\"$")
     public void system_should_display_results_that_contain_the_word(String input){
+        Assert.fail();
         assertThat(Conditions.textToBePresentInElementsLocatedIgnoreCase(byCss(".o_kanban_record_title"), input));
         log.info("Word " + input +" is present in search results");
     }
@@ -60,12 +61,13 @@ public class OdooPurchasesSearchSteps extends BaseTest{
 
     @When("^user clicks on the search icon again$")
     public void user_clicks_on_the_search_icon_again()  {
+        Assert.fail();
         purchases.showHideSearchFilters();
         log.info("User clicks again on the icon ");
     }
 
-    @Then("^advanced search options should disapear$")
-    public void advanced_search_options_should_disapear()  {
+    @Then("^advanced search options should disappear$")
+    public void advanced_search_options_should_disappear()  {
         assertThat(ExpectedConditions.invisibilityOf(purchases.searchOptinsTab));
         log.info("Advanced search tab is invisible");
     }

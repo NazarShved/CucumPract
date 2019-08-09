@@ -1,6 +1,8 @@
-20:51:20.347 [main] INFO  steps.BaseTest - Advanced search options tab appeared
-20:51:20.551 [main] INFO  steps.BaseTest - User clicks again on the icon 
-20:51:20.588 [main] INFO  steps.BaseTest - Advanced search tab is invisible
-20:51:20.589 [main] INFO  steps.BaseTest - display/hide advanced search option passed succesfully
+18:45:54.346 [main] ERROR steps.BaseTest - search products by nameFailed
 
-'
+
+18:45:59.846 [main] INFO  steps.BaseTest - ------>Starting to execute display/hide advanced search option<--------
+
+18:47:00.175 [main] ERROR steps.BaseTest - display/hide advanced search optionFailed
+
+

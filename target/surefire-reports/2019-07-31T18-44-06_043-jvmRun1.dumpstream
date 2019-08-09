@@ -1,0 +1,265 @@
+# Created at 2019-07-31T18:46:52.370
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-07-31T18:46:59.724
+Unexpected IOException: 5,1,Scenario: display/hide advanced search option,Given go to odoo\002C log in and go to purcases(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-31T18:46:59.735
+Unexpected IOException: 7,1,Scenario: display/hide advanced search option,Given go to odoo\002C log in and go to purcases(Scenario: display/hide advanced search option),null,Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046,null,Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046,Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046,org.openqa.selenium.TimeoutException: \000AExpected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046\000A
+
+
+# Created at 2019-07-31T18:46:59.748
+Unexpected IOException: 7,1,Scenario: display/hide advanced search option,Scenario: display/hide advanced search option,null,Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046,null,Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046,Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046,org.openqa.selenium.TimeoutException: \000AExpected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-BEIVEA1'\002C ip: '192.168.1.166'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_211'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 75.0.3770.142\002C chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7...\002C userDataDir: C:\005CUsers\005CShvednazar994\005CAppD...}\002C goog:chromeOptions: {debuggerAddress: localhost:50222}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: a09c3e89161394efd493ea652672f046\000A
+
+
+# Created at 2019-07-31T18:46:59.757
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:46:59.767
+Unexpected IOException with stream:   Background: user is logged in and on purchases module # odooPurchasesSearch.feature:4
+
+
+# Created at 2019-07-31T18:46:59.773
+Unexpected IOException with stream:     Given go to odoo, log in and go to purcases         # OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()
+
+
+# Created at 2019-07-31T18:46:59.781
+Unexpected IOException with stream:       org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'DESKTOP-BEIVEA1', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:50222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: a09c3e89161394efd493ea652672f046
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+      	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:65)
+      	at steps.OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases(OdooPurchasesSearchSteps.java:16)
+      	at ?.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:5)
+
+
+
+# Created at 2019-07-31T18:46:59.790
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,Given user clicks on the search icon(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-31T18:46:59.800
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,Then advanced search options should display(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-31T18:46:59.806
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,When user clicks on the search icon again(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-31T18:46:59.814
+Unexpected IOException: 9,1,Scenario: display/hide advanced search option,Then advanced search options should disappear(Scenario: display/hide advanced search option),null,null,null
+
+
+# Created at 2019-07-31T18:46:59.823
+Unexpected IOException with stream: display/hide advanced search option
+
+
+# Created at 2019-07-31T18:46:59.832
+Unexpected IOException with stream: failed
+
+
+# Created at 2019-07-31T18:47:00.788
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:00.794
+Unexpected IOException with stream:   Scenario: display/hide advanced search option   # odooPurchasesSearch.feature:13
+
+
+# Created at 2019-07-31T18:47:00.799
+Unexpected IOException with stream:     Given user clicks on the search icon          # OdooPurchasesSearchSteps.user_clicks_on_the_search_icon()
+
+
+# Created at 2019-07-31T18:47:00.805
+Unexpected IOException with stream:     Then advanced search options should display   # OdooPurchasesSearchSteps.advanced_search_options_should_display()
+
+
+# Created at 2019-07-31T18:47:00.811
+Unexpected IOException with stream:     When user clicks on the search icon again     # OdooPurchasesSearchSteps.user_clicks_on_the_search_icon_again()
+
+
+# Created at 2019-07-31T18:47:00.817
+Unexpected IOException with stream:     Then advanced search options should disappear # OdooPurchasesSearchSteps.advanced_search_options_should_disappear()
+
+
+# Created at 2019-07-31T18:47:01.210
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.218
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2019-07-31T18:47:01.224
+Unexpected IOException with stream: odooPurchasesSearch.feature:7 
+
+# Created at 2019-07-31T18:47:01.229
+Unexpected IOException with stream: # Scenario: search products by name
+
+
+# Created at 2019-07-31T18:47:01.236
+Unexpected IOException with stream: odooPurchasesSearch.feature:13 
+
+# Created at 2019-07-31T18:47:01.241
+Unexpected IOException with stream: # Scenario: display/hide advanced search option
+
+
+# Created at 2019-07-31T18:47:01.246
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.252
+Unexpected IOException with stream: 2
+
+# Created at 2019-07-31T18:47:01.259
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2019-07-31T18:47:01.265
+Unexpected IOException with stream: 2 failed
+
+# Created at 2019-07-31T18:47:01.271
+Unexpected IOException with stream: )
+
+
+# Created at 2019-07-31T18:47:01.277
+Unexpected IOException with stream: 10
+
+# Created at 2019-07-31T18:47:01.285
+Unexpected IOException with stream:  Steps (
+
+# Created at 2019-07-31T18:47:01.293
+Unexpected IOException with stream: 2 failed
+
+# Created at 2019-07-31T18:47:01.300
+Unexpected IOException with stream: , 
+
+# Created at 2019-07-31T18:47:01.307
+Unexpected IOException with stream: 5 skipped
+
+# Created at 2019-07-31T18:47:01.314
+Unexpected IOException with stream: , 
+
+# Created at 2019-07-31T18:47:01.321
+Unexpected IOException with stream: 3 passed
+
+# Created at 2019-07-31T18:47:01.327
+Unexpected IOException with stream: )
+
+
+# Created at 2019-07-31T18:47:01.334
+Unexpected IOException with stream: 2m
+
+# Created at 2019-07-31T18:47:01.340
+Unexpected IOException with stream: 45.360s
+
+
+# Created at 2019-07-31T18:47:01.345
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.351
+Unexpected IOException with stream: java.lang.AssertionError
+
+# Created at 2019-07-31T18:47:01.357
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.363
+Unexpected IOException with stream: 	at org.junit.Assert.fail(Assert.java:86)
+
+# Created at 2019-07-31T18:47:01.368
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.374
+Unexpected IOException with stream: 	at org.junit.Assert.fail(Assert.java:95)
+
+# Created at 2019-07-31T18:47:01.379
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.386
+Unexpected IOException with stream: 	at steps.OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word(OdooPurchasesSearchSteps.java:36)
+
+# Created at 2019-07-31T18:47:01.391
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.400
+Unexpected IOException with stream: 	at ?.Then system should display results that contain the word "apple"(odooPurchasesSearch.feature:10)
+
+# Created at 2019-07-31T18:47:01.411
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.416
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.422
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: .o_loading (tried for 7 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BEIVEA1', ip: '192.168.1.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\Shvednazar994\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:50222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a09c3e89161394efd493ea652672f046
+
+# Created at 2019-07-31T18:47:01.427
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.435
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+
+# Created at 2019-07-31T18:47:01.440
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.446
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+
+# Created at 2019-07-31T18:47:01.451
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.457
+Unexpected IOException with stream: 	at pages.PurchasesPage.goToPurchases(PurchasesPage.java:65)
+
+# Created at 2019-07-31T18:47:01.462
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.468
+Unexpected IOException with stream: 	at steps.OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases(OdooPurchasesSearchSteps.java:16)
+
+# Created at 2019-07-31T18:47:01.473
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.478
+Unexpected IOException with stream: 	at ?.Given go to odoo, log in and go to purcases(odooPurchasesSearch.feature:5)
+
+# Created at 2019-07-31T18:47:01.484
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.490
+Unexpected IOException with stream: 
+
+
+# Created at 2019-07-31T18:47:01.495
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,runners.Runner,null,null,null
+
+
