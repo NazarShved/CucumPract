@@ -1,4 +1,4 @@
-@Aigerim
+@Smoke
 
 Feature: Creating new vendor account under Vendors functionality.
 

@@ -1,4 +1,4 @@
-@nurlan
+@Smoke
 Feature: Search by PO functionality verification
 
 

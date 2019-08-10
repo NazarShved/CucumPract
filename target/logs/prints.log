@@ -1,31 +1,7 @@
-11:09:35.072 [main] INFO  steps.BaseTest - ------>Starting to execute search by wrong PO number<--------
-
-11:09:40.024 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-11:09:40.898 [main] INFO  steps.BaseTest - Searching for <string>
-11:09:40.906 [main] INFO  steps.BaseTest - search by wrong PO number passed succesfully
-
-'
-23:07:27.054 [main] INFO  steps.BaseTest - ------>Starting to execute Check kanban List<--------
-
-23:07:34.080 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-23:07:34.162 [main] INFO  steps.BaseTest - Check kanban List passed succesfully
-
-'
-23:07:41.418 [main] INFO  steps.BaseTest - ------>Starting to execute SearchingVendorCompany in Purchase module<--------
-
-23:07:48.302 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-23:07:48.406 [main] INFO  steps.BaseTest - SearchingVendorCompany in Purchase module passed succesfully
-
-'
-23:39:03.595 [main] INFO  steps.BaseTest - ------>Starting to execute Check kanban List<--------
-
-23:39:10.935 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-23:39:36.474 [main] INFO  steps.BaseTest - Check kanban List passed succesfully
-
-'
-23:39:40.529 [main] INFO  steps.BaseTest - ------>Starting to execute SearchingVendorCompany in Purchase module<--------
-
-23:39:46.980 [main] INFO  steps.BaseTest - User logged in and in Purchases module
-23:39:53.541 [main] INFO  steps.BaseTest - SearchingVendorCompany in Purchase module passed succesfully
+18:47:35.190 [main] INFO  steps.BaseTest - User clicked on search icon
+18:47:35.857 [main] INFO  steps.BaseTest - Advanced search options tab appeared
+18:47:35.966 [main] INFO  steps.BaseTest - User clicks again on the icon 
+18:47:36.006 [main] INFO  steps.BaseTest - Advanced search tab is invisible
+18:47:36.007 [main] INFO  steps.BaseTest - display/hide advanced search option passed succesfully
 
 '

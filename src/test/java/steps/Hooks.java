@@ -9,9 +9,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import steps.BaseTest;
 import utilities.DriverSetup;
 
-public class Hooks extends BaseTest{
+public class Hooks extends BaseTest {
     public static Logger log = LogManager.getLogger(BaseTest.class.getName());
     @Before()
     public void setUp(Scenario scenario){

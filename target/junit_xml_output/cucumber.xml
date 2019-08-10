@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="56.304334">
-    <testcase classname="Cheking Vendor module" name="Check kanban List" time="39.259434">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="220.036473">
+    <testcase classname="Sort results by status" name="Sort items by status" time="19.420221">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given User is on incoming products module...................................passed
+When User clicks on Status tab..............................................passed
+Then All results should be sorted by availability...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Sort results by status" name="All status values should be displayed" time="16.660267">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given User is on incoming products module...................................passed
+Then Every item should have avilability status..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Creating a Vendor Bill" name="Create a new Vendor Bill" time="21.558787">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given User is on odoo Purchases/Vendor Bills module.........................passed
+When User clicks on Create button...........................................passed
+And User fills out the form to create a new vendor bill.....................passed
+And User clicks on Add an item button.......................................passed
+And User enters "ice cream" into item name field and clicks Enter...........passed
+When User clicks on Save button.............................................passed
+Then "ice cream" appears in the created bill................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search by PO functionality verification" name="search by right PO number" time="13.882388">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+When user enters a "PO" number..............................................passed
+Then User should see receipt by "PO" number.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search by PO functionality verification" name="search by wrong PO number" time="14.009233">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+When user enters a word "<string>" into a search box........................passed
+Then User should see message that could not found receipt...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Cheking Vendor module" name="Check kanban List" time="42.189842">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
 Given User goes to kanban to assert it's list...............................passed
@@ -8,13 +54,58 @@ Then user goes to List  to assert it's list.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Cheking Vendor module" name="SearchingVendorCompany in Purchase module" time="17.0449">
+    <testcase classname="Cheking Vendor module" name="SearchingVendorCompany in Purchase module" time="19.242274">
         <system-out>
             <![CDATA[Given go to odoo, log in and go to purcases.................................passed
 When User goes to Vendor module.............................................passed
 And User creates a company leaving name empty and saves it..................passed
 And User should see message "The following fields are invalid:".............passed
 Then User should see the message dissapeared................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Create new vendor profile" name="Creating new vendor profile" time="20.722679">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given User is in vendors module.............................................passed
+When User clicks on Create Vendor button....................................passed
+And User fills out the neede information....................................passed
+And Creates a note for profile..............................................passed
+And User clicks on Save button..............................................passed
+Then Message account is created should appear...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Creating new vendor account under Vendors functionality." name="Create a new vendor account" time="23.047324">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given User is on Odoo Purchases/Vendor Bills module.........................passed
+When User clicks create button..............................................passed
+And User types name.........................................................passed
+When User clicks create button on the buttom of the page....................passed
+And User fills out form to create a new vendors account.....................passed
+And User clicks Save&Close button...........................................passed
+Then New contact info appears on the screen.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search functionality verification" name="search products by name" time="16.296019">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given user is on odoo purchases/products module.............................passed
+When user enters a word "apple" into a search box...........................passed
+Then system should display results that contain the word "apple"............passed
+And a small tab with the word "apple" appears in the search box.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Search functionality verification" name="display/hide advanced search option" time="13.007439">
+        <system-out>
+            <![CDATA[Given go to odoo, log in and go to purcases.................................passed
+Given user clicks on the search icon........................................passed
+Then advanced search options should display.................................passed
+When user clicks on the search icon again...................................passed
+Then advanced search options should disappear...............................passed
 ]]>
         </system-out>
     </testcase>
