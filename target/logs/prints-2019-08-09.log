@@ -1,0 +1,35 @@
+18:46:27.597 [main] INFO  steps.BaseTest - ------>Starting to execute Creating new vendor profile<--------
+
+18:46:34.683 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+18:46:42.176 [main] INFO  steps.BaseTest - User filled the information needed
+18:46:42.735 [main] INFO  steps.BaseTest - User added a note
+18:46:42.878 [main] INFO  steps.BaseTest - Save button clicked
+18:46:43.697 [main] INFO  steps.BaseTest - Creating new vendor profile passed succesfully
+
+'
+18:46:48.574 [main] INFO  steps.BaseTest - ------>Starting to execute Create a new vendor account<--------
+
+18:46:57.204 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+18:46:59.373 [main] INFO  steps.BaseTest - User in vendors module
+18:46:59.877 [main] INFO  steps.BaseTest - Create button clicked
+18:47:03.759 [main] INFO  steps.BaseTest - Typed name into a field
+18:47:03.925 [main] INFO  steps.BaseTest - Create button clicked
+18:47:06.358 [main] INFO  steps.BaseTest - Information filled to create new vendors account
+18:47:06.573 [main] INFO  steps.BaseTest - Save&Close button clicked
+18:47:06.730 [main] INFO  steps.BaseTest - New contact is created
+18:47:06.731 [main] INFO  steps.BaseTest - Create a new vendor account passed succesfully
+
+'
+18:47:11.409 [main] INFO  steps.BaseTest - ------>Starting to execute search products by name<--------
+
+18:47:18.492 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+18:47:20.363 [main] INFO  steps.BaseTest - Tab switched to Products
+18:47:22.010 [main] INFO  steps.BaseTest - Searching for apple
+18:47:22.798 [main] INFO  steps.BaseTest - Word apple is present in search results
+18:47:22.830 [main] INFO  steps.BaseTest - Word apple is present in search field as a tab
+18:47:22.830 [main] INFO  steps.BaseTest - search products by name passed succesfully
+
+'
+18:47:28.567 [main] INFO  steps.BaseTest - ------>Starting to execute display/hide advanced search option<--------
+
+18:47:35.016 [main] INFO  steps.BaseTest - User logged in and in Purchases module

@@ -1,0 +1,43 @@
+10:50:24.724 [main] INFO  steps.BaseTest - ------>Starting to execute search by right PO number<--------
+
+10:50:31.060 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+10:50:31.072 [main] INFO  steps.BaseTest - search by right PO number passed succesfully
+
+'
+10:56:05.159 [main] INFO  steps.BaseTest - ------>Starting to execute search by right PO number<--------
+
+10:56:10.226 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+10:56:16.059 [main] INFO  steps.BaseTest - search by right PO number passed succesfully
+
+'
+11:00:02.107 [main] INFO  steps.BaseTest - ------>Starting to execute search by right PO number<--------
+
+11:00:07.310 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:00:13.141 [main] INFO  steps.BaseTest - search by right PO number passed succesfully
+
+'
+11:04:18.947 [main] INFO  steps.BaseTest - ------>Starting to execute search by right PO number<--------
+
+11:04:24.173 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:04:30.052 [main] INFO  steps.BaseTest - search by right PO number passed succesfully
+
+'
+11:06:42.131 [main] INFO  steps.BaseTest - ------>Starting to execute search by right PO number<--------
+
+11:06:48.134 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:06:54.014 [main] INFO  steps.BaseTest - search by right PO number passed succesfully
+
+'
+11:06:55.142 [main] INFO  steps.BaseTest - ------>Starting to execute search by wrong PO number<--------
+
+11:07:00.496 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:07:01.342 [main] INFO  steps.BaseTest - Searching for <string>
+11:07:01.344 [main] INFO  steps.BaseTest - search by wrong PO number passed succesfully
+
+'
+11:09:22.990 [main] INFO  steps.BaseTest - ------>Starting to execute search by right PO number<--------
+
+11:09:28.043 [main] INFO  steps.BaseTest - User logged in and in Purchases module
+11:09:33.918 [main] INFO  steps.BaseTest - search by right PO number passed succesfully
+
+'

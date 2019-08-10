@@ -33,7 +33,6 @@ public class OdooPurchasesSearchSteps extends BaseTest{
 
     @Then("^system should display results that contain the word \"([^\"]*)\"$")
     public void system_should_display_results_that_contain_the_word(String input){
-        Assert.fail();
         assertThat(Conditions.textToBePresentInElementsLocatedIgnoreCase(byCss(".o_kanban_record_title"), input));
         log.info("Word " + input +" is present in search results");
     }
@@ -61,7 +60,6 @@ public class OdooPurchasesSearchSteps extends BaseTest{
 
     @When("^user clicks on the search icon again$")
     public void user_clicks_on_the_search_icon_again()  {
-        Assert.fail();
         purchases.showHideSearchFilters();
         log.info("User clicks again on the icon ");
     }

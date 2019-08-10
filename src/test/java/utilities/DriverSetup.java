@@ -29,7 +29,7 @@ public class DriverSetup {
                     options.addArguments("headless");
                     options.addArguments("window-size=1200x600");
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(options);
+                    driver = new ChromeDriver();
             }
 
             driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
