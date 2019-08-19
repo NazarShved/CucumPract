@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class Config {
 
-    public Properties p = new Properties();
+    public static Properties p = new Properties();
 
     public Config(String path) {
         try {
@@ -18,7 +18,7 @@ public class Config {
         }
     }
 
-    public String getProperty(String keyword){
+    public static String getProperty(String keyword){
         return p.getProperty(keyword);
     }
 }

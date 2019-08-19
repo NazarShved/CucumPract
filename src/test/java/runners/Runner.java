@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
         format = {"pretty", "html:target/test-output", "json:target/json_output/cucumber.json","junit:target/junit_xml_output/cucumber.xml"},
         dryRun = false,
         monochrome = true,
-        strict = false,
-        tags = "@Smoke"
+ //       strict = false,
+        tags = "@project"
         //tags = {"@SanityTest, @End2End"} Execute test cases that are a part of any of both
         //tags = {"@SanityTest", "@End2End"} Execute test cases that are part of BOTH at the same time
         //tags = {"~@End2End"}//ignore specified scenario
