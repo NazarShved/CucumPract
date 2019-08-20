@@ -1,0 +1,44 @@
+17:54:42.628 [main] INFO  steps.BaseTest - ------>Starting to execute Student data UI and Database verification<--------
+
+17:54:54.750 [main] INFO  steps.BaseTest - Student data UI and Database verification passed succesfully
+
+'
+17:55:06.806 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+17:55:16.866 [main] ERROR steps.BaseTest - Teacher data UI and Database verificationFailed
+
+
+17:58:04.484 [main] INFO  steps.BaseTest - ------>Starting to execute Student data UI and Database verification<--------
+
+17:58:15.550 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+17:58:41.322 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+17:58:56.597 [main] ERROR steps.BaseTest - Teacher data UI and Database verificationFailed
+
+
+18:01:55.035 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+18:02:15.363 [main] ERROR steps.BaseTest - Teacher data UI and Database verificationFailed
+
+
+18:02:36.810 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+18:02:52.813 [main] ERROR steps.BaseTest - Teacher data UI and Database verificationFailed
+
+
+18:03:14.533 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+18:03:33.731 [main] ERROR steps.BaseTest - Teacher data UI and Database verificationFailed
+
+
+18:04:15.524 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+18:04:30.011 [main] INFO  steps.BaseTest - Teacher data UI and Database verification passed succesfully
+
+'
+18:17:03.169 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+18:17:39.117 [main] INFO  steps.BaseTest - Teacher data UI and Database verification passed succesfully
+
+'

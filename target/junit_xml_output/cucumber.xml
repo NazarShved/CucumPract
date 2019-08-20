@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.534852">
-    <testcase classname="CybertekTraining App Database and UI data verification" name="Student data UI and Database verification" time="21.534852">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="96.542337">
+    <testcase classname="CybertekTraining App Database and UI data verification" name="Student data UI and Database verification" time="52.056794">
         <system-out>
             <![CDATA[Given User is on CybertekTraining page......................................passed
 When User clicks on Students button.........................................passed
@@ -9,7 +9,19 @@ And User enters all the student information into required boxes.............pass
 And User enters all the company information into required boxes.............passed
 And User clicks on Submit button............................................passed
 And User query database with sql "select first_name, last_name from student where first_name = 'David'";.passed
-Then UI data and Database data must match...................................passed
+Then UI data and Database data must contain "David".........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CybertekTraining App Database and UI data verification" name="Teacher data UI and Database verification" time="44.485543">
+        <system-out>
+            <![CDATA[Given User is on CybertekTraining page......................................passed
+When User clicks on Teachers button.........................................passed
+And User clicks on Add Teacher button.......................................passed
+And User enters all the teacher information into required boxes.............passed
+And User clicks on Submit button............................................passed
+And User query teacher database with sql "select first_name, last_name from teacher where first_name = 'Joe'";.passed
+Then UI data and Database data must contain "Joe"...........................passed
 ]]>
         </system-out>
     </testcase>

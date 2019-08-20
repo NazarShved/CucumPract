@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4937305751,
+              "duration": 12927946501,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 649942374,
+              "duration": 730922599,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9096155685,
+              "duration": 26213550600,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 254170278,
+              "duration": 313623301,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 997583937,
+              "duration": 723165600,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 2255685714,
+              "duration": 4073780499,
               "status": "passed"
             },
             "line": 8,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 967136411,
+              "duration": 1884195500,
               "status": "passed"
             },
             "line": 9,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 83396820,
+              "duration": 156839500,
               "status": "passed"
             },
             "line": 10,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 2290876948,
+              "duration": 5026378700,
               "status": "passed"
             },
             "line": 11,
@@ -124,13 +124,19 @@
           },
           {
             "result": {
-              "duration": 2598552,
+              "duration": 6391200,
               "status": "passed"
             },
             "line": 12,
-            "name": "UI data and Database data must match",
+            "name": "UI data and Database data must contain \"David\"",
             "match": {
-              "location": "CybertekTraining_Steps.ui_data_and_Database_data_must_match()"
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 40
+                }
+              ],
+              "location": "CybertekTraining_Steps.ui_data_and_Database_data_must_contain(String)"
             },
             "keyword": "Then "
           }
@@ -138,6 +144,140 @@
         "tags": [
           {
             "line": 3,
+            "name": "@project"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9899934300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Teacher data UI and Database verification",
+        "description": "",
+        "id": "cybertektraining-app-database-and-ui-data-verification;teacher-data-ui-and-database-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 730351401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25405841900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on CybertekTraining page",
+            "match": {
+              "location": "CybertekTraining_Steps.user_is_on_CybertekTraining_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291887200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Teachers button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Teachers_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3763383199,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Add Teacher button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Add_Teacher_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3548685101,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters all the teacher information into required boxes",
+            "match": {
+              "location": "CybertekTraining_Steps.user_enters_all_the_teacher_information_into_required_boxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158409500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 686969600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User query teacher database with sql \"select first_name, last_name from teacher where first_name \u003d \u0027Joe\u0027\";",
+            "match": {
+              "arguments": [
+                {
+                  "val": "select first_name, last_name from teacher where first_name \u003d \u0027Joe\u0027",
+                  "offset": 38
+                }
+              ],
+              "location": "CybertekTraining_Steps.user_query_teacher_database_with_sql(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "UI data and Database data must contain \"Joe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joe",
+                  "offset": 40
+                }
+              ],
+              "location": "CybertekTraining_Steps.ui_data_and_Database_data_must_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
             "name": "@project"
           }
         ]
