@@ -1,33 +1,12 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
-      {
-        "line": 4,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7499716679,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
       {
         "before": [
           {
             "result": {
-              "duration": 6522376800,
+              "duration": 12927946501,
               "status": "passed"
             },
             "match": {
@@ -35,14 +14,14 @@
             }
           }
         ],
-        "line": 7,
-        "name": "Sort items by status",
+        "line": 4,
+        "name": "Student data UI and Database verification",
         "description": "",
-        "id": "sort-results-by-status;sort-items-by-status",
+        "id": "cybertektraining-app-database-and-ui-data-verification;student-data-ui-and-database-verification",
         "after": [
           {
             "result": {
-              "duration": 727195011,
+              "duration": 730922599,
               "status": "passed"
             },
             "match": {
@@ -55,407 +34,117 @@
         "steps": [
           {
             "result": {
-              "duration": 1447327738,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User is on incoming products module",
-            "match": {
-              "location": "OdooPurchasesSortByStatus.user_is_on_incoming_products_module()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 902552969,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks on Status tab",
-            "match": {
-              "location": "OdooPurchasesSortByStatus.user_clicks_on_Status_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2321051670,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "All results should be sorted by availability",
-            "match": {
-              "location": "OdooPurchasesSortByStatus.all_results_should_be_sorted_by_availability()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7960784524,
+              "duration": 26213550600,
               "status": "passed"
             },
             "line": 5,
-            "name": "go to odoo, log in and go to purcases",
+            "name": "User is on CybertekTraining page",
             "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 5001933425,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "All status values should be displayed",
-        "description": "",
-        "id": "sort-results-by-status;all-status-values-should-be-displayed",
-        "after": [
-          {
-            "result": {
-              "duration": 723640776,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1564364760,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User is on incoming products module",
-            "match": {
-              "location": "OdooPurchasesSortByStatus.user_is_on_incoming_products_module()"
+              "location": "CybertekTraining_Steps.user_is_on_CybertekTraining_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1409543620,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Every item should have avilability status",
-            "match": {
-              "location": "OdooPurchasesSortByStatus.every_item_should_have_avilability_status()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Sort results by status",
-    "description": "",
-    "id": "sort-results-by-status",
-    "keyword": "Feature",
-    "uri": "OdooPurchasesSortByStatus.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6706641087,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 3718405859,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "Create a new Vendor Bill",
-        "description": "",
-        "id": "creating-a-vendor-bill;create-a-new-vendor-bill",
-        "after": [
-          {
-            "result": {
-              "duration": 760873219,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1851374289,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User is on odoo Purchases/Vendor Bills module",
-            "match": {
-              "location": "OdooPurchasesCreateVendorBillSteps.user_is_on_odoo_Purchases_Vendor_Bills_module()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 171256324,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks on Create button",
-            "match": {
-              "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Create_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2974433967,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User fills out the form to create a new vendor bill",
-            "match": {
-              "location": "OdooPurchasesCreateVendorBillSteps.user_fills_out_the_form_to_create_a_new_vendor_bill()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 131506708,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User clicks on Add an item button",
-            "match": {
-              "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Add_an_item_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1269374774,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User enters \"ice cream\" into item name field and clicks Enter",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ice cream",
-                  "offset": 13
-                }
-              ],
-              "location": "OdooPurchasesCreateVendorBillSteps.user_enters_into_item_name_field_and_clicks_Enter(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 102207680,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User clicks on Save button",
-            "match": {
-              "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Save_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3872712958,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "\"ice cream\" appears in the created bill",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ice cream",
-                  "offset": 1
-                }
-              ],
-              "location": "OdooPurchasesCreateVendorBillSteps.appears_in_the_created_bill(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Creating a Vendor Bill",
-    "description": "",
-    "id": "creating-a-vendor-bill",
-    "keyword": "Feature",
-    "uri": "oddoPurchasesCreateVendorBill.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 5,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6934467102,
+              "duration": 313623301,
               "status": "passed"
             },
             "line": 6,
-            "name": "go to odoo, log in and go to purcases",
+            "name": "User clicks on Students button",
             "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4387923127,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "search by right PO number",
-        "description": "",
-        "id": "search-by-po-functionality-verification;search-by-right-po-number",
-        "after": [
-          {
-            "result": {
-              "duration": 832258567,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1591471632,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters a \"PO\" number",
-            "match": {
-              "arguments": [
-                {
-                  "val": "PO",
-                  "offset": 15
-                }
-              ],
-              "location": "OdooPurchasesSearchByPOSteps.user_enters_a_number(String)"
+              "location": "CybertekTraining_Steps.user_clicks_on_Students_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 136267783,
+              "duration": 723165600,
               "status": "passed"
             },
-            "line": 12,
-            "name": "User should see receipt by \"PO\" number",
+            "line": 7,
+            "name": "User clicks on Add Student button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Add_Student_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4073780499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters all the student information into required boxes",
+            "match": {
+              "location": "CybertekTraining_Steps.user_enters_all_the_student_information_into_required_boxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1884195500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters all the company information into required boxes",
+            "match": {
+              "location": "CybertekTraining_Steps.user_enters_all_the_company_information_into_required_boxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156839500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5026378700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User query database with sql \"select first_name, last_name from student where first_name \u003d \u0027David\u0027\";",
             "match": {
               "arguments": [
                 {
-                  "val": "PO",
-                  "offset": 28
+                  "val": "select first_name, last_name from student where first_name \u003d \u0027David\u0027",
+                  "offset": 30
                 }
               ],
-              "location": "OdooPurchasesSearchByPOSteps.user_should_see_receipt_by_number(String)"
+              "location": "CybertekTraining_Steps.user_query_database_with_sql(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6391200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "UI data and Database data must contain \"David\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 40
+                }
+              ],
+              "location": "CybertekTraining_Steps.ui_data_and_Database_data_must_contain(String)"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 7285015377,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
+            "line": 3,
+            "name": "@project"
           }
         ]
       },
@@ -463,7 +152,7 @@
         "before": [
           {
             "result": {
-              "duration": 4182746969,
+              "duration": 9899934300,
               "status": "passed"
             },
             "match": {
@@ -471,14 +160,14 @@
             }
           }
         ],
-        "line": 14,
-        "name": "search by wrong PO number",
+        "line": 15,
+        "name": "Teacher data UI and Database verification",
         "description": "",
-        "id": "search-by-po-functionality-verification;search-by-wrong-po-number",
+        "id": "cybertektraining-app-database-and-ui-data-verification;teacher-data-ui-and-database-verification",
         "after": [
           {
             "result": {
-              "duration": 821818669,
+              "duration": 730351401,
               "status": "passed"
             },
             "match": {
@@ -491,777 +180,113 @@
         "steps": [
           {
             "result": {
-              "duration": 1696339749,
+              "duration": 25405841900,
               "status": "passed"
             },
             "line": 16,
-            "name": "user enters a word \"\u003cstring\u003e\" into a search box",
+            "name": "User is on CybertekTraining page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\u003cstring\u003e",
-                  "offset": 20
-                }
-              ],
-              "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box(String)"
+              "location": "CybertekTraining_Steps.user_is_on_CybertekTraining_page()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 23312294,
+              "duration": 291887200,
               "status": "passed"
             },
             "line": 17,
-            "name": "User should see message that could not found receipt",
+            "name": "User clicks on Teachers button",
             "match": {
-              "location": "OdooPurchasesSearchByPOSteps.user_should_see_message_that_could_not_found_receipt()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Search by PO functionality verification",
-    "description": "",
-    "id": "search-by-po-functionality-verification",
-    "keyword": "Feature",
-    "uri": "odoPurchasesSearchByPO.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
-  },
-  {
-    "line": 3,
-    "elements": [
-      {
-        "line": 5,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7261491821,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8458588732,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 8,
-        "name": "Check kanban List",
-        "description": "",
-        "id": "cheking-vendor-module;check-kanban-list",
-        "after": [
-          {
-            "result": {
-              "duration": 724458878,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 12809702365,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User goes to kanban to assert it\u0027s list",
-            "match": {
-              "location": "OdoPurchasesCreateVendorCompany.user_goes_to_kanban_to_assert_it_s_list()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 12935599958,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user goes to List  to assert it\u0027s list",
-            "match": {
-              "location": "OdoPurchasesCreateVendorCompany.user_goes_to_List_to_assert_it_s_list()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7115417923,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4159255061,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "SearchingVendorCompany in Purchase module",
-        "description": "",
-        "id": "cheking-vendor-module;searchingvendorcompany-in-purchase-module",
-        "after": [
-          {
-            "result": {
-              "duration": 797401315,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2489803651,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User goes to Vendor module",
-            "match": {
-              "location": "OdoPurchasesCreateVendorCompany.user_goes_to_Vendor_module()"
+              "location": "CybertekTraining_Steps.user_clicks_on_Teachers_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1175999866,
+              "duration": 3763383199,
               "status": "passed"
             },
+            "line": 18,
+            "name": "User clicks on Add Teacher button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Add_Teacher_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3548685101,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters all the teacher information into required boxes",
+            "match": {
+              "location": "CybertekTraining_Steps.user_enters_all_the_teacher_information_into_required_boxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158409500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "CybertekTraining_Steps.user_clicks_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 686969600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User query teacher database with sql \"select first_name, last_name from teacher where first_name \u003d \u0027Joe\u0027\";",
+            "match": {
+              "arguments": [
+                {
+                  "val": "select first_name, last_name from teacher where first_name \u003d \u0027Joe\u0027",
+                  "offset": 38
+                }
+              ],
+              "location": "CybertekTraining_Steps.user_query_teacher_database_with_sql(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "UI data and Database data must contain \"Joe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joe",
+                  "offset": 40
+                }
+              ],
+              "location": "CybertekTraining_Steps.ui_data_and_Database_data_must_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
             "line": 14,
-            "name": "User creates a company leaving name empty and saves it",
-            "match": {
-              "location": "OdoPurchasesCreateVendorCompany.user_creates_a_company_leaving_name_empty_and_saves_it()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 56774536,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User should see message \"The following fields are invalid:\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "The following fields are invalid:",
-                  "offset": 25
-                }
-              ],
-              "location": "OdoPurchasesCreateVendorCompany.user_should_see_message(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3447621964,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User should see the message dissapeared",
-            "match": {
-              "location": "OdoPurchasesCreateVendorCompany.user_should_see_the_message_dissapeared()"
-            },
-            "keyword": "Then "
+            "name": "@project"
           }
         ]
       }
     ],
-    "name": "Cheking Vendor module",
+    "name": "CybertekTraining App Database and UI data verification",
     "description": "",
-    "id": "cheking-vendor-module",
+    "id": "cybertektraining-app-database-and-ui-data-verification",
     "keyword": "Feature",
-    "uri": "odooPurchasesCheckingKanbanAndVendorCompany.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7079175071,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 3903187179,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "Creating new vendor profile",
-        "description": "",
-        "id": "create-new-vendor-profile;creating-new-vendor-profile",
-        "after": [
-          {
-            "result": {
-              "duration": 736889508,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2165952127,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User is in vendors module",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorProfile.user_is_in_vendors_module()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 132378694,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User clicks on Create Vendor button",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorProfile.user_clicks_on_Create_Vendor_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5189129283,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User fills out the neede information",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorProfile.user_fills_out_the_neede_information()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 559121718,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Creates a note for profile",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorProfile.creates_a_note_for_profile()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 142293006,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks on Save button",
-            "match": {
-              "location": "OdooPurchasesCreateVendorBillSteps.user_clicks_on_Save_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 814551966,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Message account is created should appear",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorProfile.message_account_is_created_should_appear()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Create new vendor profile",
-    "description": "",
-    "id": "create-new-vendor-profile",
-    "keyword": "Feature",
-    "uri": "odooPurchasesCreateNewVendorProfile.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
-  },
-  {
-    "line": 3,
-    "elements": [
-      {
-        "line": 5,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 8626409709,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4140456658,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 8,
-        "name": "Create a new vendor account",
-        "description": "",
-        "id": "creating-new-vendor-account-under-vendors-functionality.;create-a-new-vendor-account",
-        "after": [
-          {
-            "result": {
-              "duration": 769237283,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2501797645,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on Odoo Purchases/Vendor Bills module",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_is_on_Odoo_Purchases_Vendor_Bills_module()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 162333316,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User clicks create button",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_create_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 3881921211,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User types name",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_types_name()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 164158118,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks create button on the buttom of the page",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_create_button_on_the_buttom_of_the_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2431368105,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User fills out form to create a new vendors account",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_fills_out_form_to_create_a_new_vendors_account()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 213647990,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User clicks Save\u0026Close button",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.user_clicks_Save_Close_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 155994196,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "New contact info appears on the screen.",
-            "match": {
-              "location": "OdooPurchasesCreateNewVendorAccount.new_contact_info_appears_on_the_screen()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Creating new vendor account under Vendors functionality.",
-    "description": "",
-    "id": "creating-new-vendor-account-under-vendors-functionality.",
-    "keyword": "Feature",
-    "uri": "odooPurchasesCreateVendorAccount.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7074498244,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 3913464996,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "search products by name",
-        "description": "",
-        "id": "search-functionality-verification;search-products-by-name",
-        "after": [
-          {
-            "result": {
-              "duration": 962173117,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1868769557,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user is on odoo purchases/products module",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.user_is_on_odoo_purchases_products_module()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1652503468,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enters a word \"apple\" into a search box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "apple",
-                  "offset": 20
-                }
-              ],
-              "location": "OdooPurchasesSearchSteps.user_enters_a_word_into_a_search_box(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 786918225,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "system should display results that contain the word \"apple\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "apple",
-                  "offset": 53
-                }
-              ],
-              "location": "OdooPurchasesSearchSteps.system_should_display_results_that_contain_the_word(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 37691744,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "a small tab with the word \"apple\" appears in the search box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "apple",
-                  "offset": 27
-                }
-              ],
-              "location": "OdooPurchasesSearchSteps.a_small_tab_with_the_word_appears_in_the_search_box(String)"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "user is logged in and on purchases module",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6446926598,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to odoo, log in and go to purcases",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.go_to_odoo_log_in_and_go_to_purcases()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4760212065,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "display/hide advanced search option",
-        "description": "",
-        "id": "search-functionality-verification;display/hide-advanced-search-option",
-        "after": [
-          {
-            "result": {
-              "duration": 819259157,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 789507244,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user clicks on the search icon",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 59119793,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "advanced search options should display",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.advanced_search_options_should_display()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 93024658,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user clicks on the search icon again",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.user_clicks_on_the_search_icon_again()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 39389104,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "advanced search options should disappear",
-            "match": {
-              "location": "OdooPurchasesSearchSteps.advanced_search_options_should_disappear()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Search functionality verification",
-    "description": "",
-    "id": "search-functionality-verification",
-    "keyword": "Feature",
-    "uri": "odooPurchasesSearch.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@Smoke"
-      }
-    ]
+    "uri": "cybertekTraining.feature"
   }
 ]

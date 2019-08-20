@@ -1,7 +1,10 @@
-18:47:35.190 [main] INFO  steps.BaseTest - User clicked on search icon
-18:47:35.857 [main] INFO  steps.BaseTest - Advanced search options tab appeared
-18:47:35.966 [main] INFO  steps.BaseTest - User clicks again on the icon 
-18:47:36.006 [main] INFO  steps.BaseTest - Advanced search tab is invisible
-18:47:36.007 [main] INFO  steps.BaseTest - display/hide advanced search option passed succesfully
+18:19:20.009 [main] INFO  steps.BaseTest - ------>Starting to execute Student data UI and Database verification<--------
+
+18:19:58.460 [main] INFO  steps.BaseTest - Student data UI and Database verification passed succesfully
+
+'
+18:20:09.091 [main] INFO  steps.BaseTest - ------>Starting to execute Teacher data UI and Database verification<--------
+
+18:20:42.968 [main] INFO  steps.BaseTest - Teacher data UI and Database verification passed succesfully
 
 '
